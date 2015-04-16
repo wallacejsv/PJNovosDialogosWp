@@ -1,5 +1,16 @@
 <?php get_header(); ?>
 
+<head>
+	<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v2.3&appId=898554820177112";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+</head>
+
 <style>
 
 .logo, .redes-sociais, nav.navbar.navbar-default.nav-bar-right {display:none}
@@ -23,27 +34,33 @@ margin-bottom:25px;
 	<main role="main">
 
 	<!-- section -->
-	<section>
+	<section class="secao-conteudo-singlepost">
 
 	<?php if (have_posts()): while (have_posts()) : the_post(); ?>
 
 
 		<!-- article -->
 		<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-
-			<!-- post thumbnail -->
-			<?php if ( has_post_thumbnail()) : // Check if Thumbnail exists ?>
-				
-					<?php the_post_thumbnail(); // Fullsize image for the single post ?>
-				
-			<?php endif; ?>
-			<!-- /post thumbnail -->
-
+			
 			<!-- post title -->
-			<h1>
+			<h1 class="titulo-singlepost">
 				<?php the_title(); ?>
 			</h1>
 			<!-- /post title -->
+			
+			<!-- Data do post -->
+				<div class="data-singlepost"><?php the_time('j \d\e F \d\e Y') ?></div>
+			<!-- //Data do post -->
+
+			<!-- post thumbnail -->
+			<div class="img-singlepost"><?php if ( has_post_thumbnail()) : // Check if Thumbnail exists ?>
+				
+					<?php the_post_thumbnail(); // Fullsize image for the single post ?>
+				
+			<?php endif; ?></div>
+			<!-- /post thumbnail -->
+
+
 
 
 			<!-- post details 
@@ -66,20 +83,9 @@ margin-bottom:25px;
 			 <?php //comments_template(); ?>
 
 
-<div id="disqus_thread"></div>
-<script type="text/javascript">
-    /* * * CONFIGURATION VARIABLES * * */
-    var disqus_shortname = 'novosdialogos';
-    
-    /* * * DON'T EDIT BELOW THIS LINE * * */
-    (function() {
-        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    })();
-</script>
 
 
+<div class="fb-comments" data-href="http://localhost/PJNovosDialogosWp/novosdialogos/?p=<?php the_ID(); ?>" data-numposts="5" data-colorscheme="light"></div>
 
 
 <div class="close"><a href="http://localhost/PJNovosDialogosWp/novosdialogos/"><span aria-hidden="true">&times;</span></a></div>

@@ -792,7 +792,7 @@ cursor: auto;
 }
 
 .modal-open .modal {
-  cursor: no-drop;
+  //cursor: no-drop;
 }
 
 
@@ -864,19 +864,51 @@ margin-left:-124px;
 }
 
 
+/* titulo h1 single post principal */
+
+h1.titulo-singlepost {
+  font-size: 48px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: 700;
+  margin-bottom: 0;	
+}
 
 
+/* Data Single post - Abaixo do titulo */
 
+.data-singlepost {
+  font-size: 17px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  margin-top: 13px;
+  margin-bottom: 16px;
+}
 
+/* imagem do single post */
 
+.img-singlepost {
+	margin-bottom: 25px;
+	overflow: hidden;
+ 	height: 400px;
+}
 
+.img-singlepost img {
+	max-width: 100%;
+}
 
+/* comentarios facebook single post */
 
+.fb-comments {
+	margin-top: 40px;
+  	border-top: 1px solid #ccc;
+  	padding-top: 40px;
+}
 
+/* conteudo do single post - centro */
 
-
-
-
+section.secao-conteudo-singlepost {
+	padding-left: 20px;
+	padding-right: 20px;
+}
 
 
 
@@ -929,6 +961,8 @@ margin-left:-124px;
 .modal.in .modal-dialog {
 cursor: auto;
   pointer-events: painted;
+    width: 750px;
+  max-width: 100%;
 }
 
 
@@ -946,12 +980,13 @@ float: right;
   background: #dddddd;
 padding: 20px;
 }
+
 /* footer */
 .footer {
   float: left;
   width: 100%;
   max-width: 100%;
-display:none;
+//display:none;
 }
 
 /* Effect 15: scale down, reveal */

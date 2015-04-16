@@ -1,5 +1,6 @@
 <!-- sidebar -->
 
+
 <aside class="sidebar" role="complementary">
 
 
@@ -50,7 +51,7 @@
    
  <?php endif; ?>
 	
-	<div class="titulo-query-home titulo-query-sidebar"><p><a href="<?php the_permalink(); ?>" onclick="history.pushState('teste','Titulo de teste','<?php the_permalink(); ?>'); return false;" type="button" data-toggle="modal" data-target="#myModal"><?php  title_lenght(100) ?></a></p></div>
+	<div class="titulo-query-home titulo-query-sidebar"><p><a href="<?php the_permalink(); ?>" onclick="history.pushState('teste','Titulo de teste','<?php the_permalink(); ?>'); return false;" type="button" data-toggle="modal" data-target="#myModal"><?php  title_lenght(60) ?></a>...</p></div>
 
 	<?php 
 	endforeach; 
@@ -87,7 +88,7 @@
    
  <?php endif; ?>
 	
-	<div class="titulo-query-home titulo-query-sidebar"><p><a href="<?php the_permalink(); ?>" onclick="history.pushState('teste','Titulo de teste','<?php the_permalink(); ?>'); return false;" type="button" data-toggle="modal" data-target="#myModal"><?php  title_lenght(100) ?></a></p></div>
+	<div class="titulo-query-home titulo-query-sidebar"><p><a href="<?php the_permalink(); ?>" onclick="history.pushState('teste','Titulo de teste','<?php the_permalink(); ?>'); return false;" type="button" data-toggle="modal" data-target="#myModal"><?php  title_lenght(60) ?>...</a></p></div>
 
 	<?php 
 	endforeach; 
@@ -125,7 +126,7 @@
    
  <?php endif; ?>
 	
-	<div class="titulo-query-home titulo-query-sidebar"><p><a href="<?php the_permalink(); ?>" onclick="history.pushState('teste','Titulo de teste','<?php the_permalink(); ?>'); return false;" type="button" data-toggle="modal" data-target="#myModal"><?php  title_lenght(100) ?></a></p></div>
+	<div class="titulo-query-home titulo-query-sidebar"><p><a href="<?php the_permalink(); ?>" onclick="history.pushState('teste','Titulo de teste','<?php the_permalink(); ?>'); return false;" type="button" data-toggle="modal" data-target="#myModal"><?php  title_lenght(60) ?>...</a></p></div>
 
 	<?php 
 	endforeach; 
@@ -163,7 +164,7 @@
    
  <?php endif; ?>
 	
-	<div class="titulo-query-home titulo-query-sidebar"><p><a href="<?php the_permalink(); ?>" onclick="history.pushState('teste','Titulo de teste','<?php the_permalink(); ?>'); return false;" type="button" data-toggle="modal" data-target="#myModal"><?php  title_lenght(100) ?></a></p></div>
+	<div class="titulo-query-home titulo-query-sidebar"><p><a href="<?php the_permalink(); ?>" onclick="history.pushState('teste','Titulo de teste','<?php the_permalink(); ?>'); return false;" type="button" data-toggle="modal" data-target="#myModal"><?php  title_lenght(60) ?>...</a></p></div>
 
 	<?php 
 	endforeach; 

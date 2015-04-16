@@ -5,7 +5,6 @@
 		<!-- section -->
 		<section>
 
-
 <div id="welcomeHero">
 			
 		<div id="slideshow-main">
@@ -39,7 +38,7 @@
 <span class="opacity"></span>
 						<span class="content">
 						<h1>
-							<div class="titulo-query-slider-centro"><p><a href="<?php the_permalink(); ?>" onclick="history.pushState('teste','Titulo de teste','<?php the_permalink(); ?>'); return false;" type="button" data-toggle="modal" data-target="#myModal"><?php  title_lenght(100) ?></a></p></div>
+							<div class="titulo-query-slider-centro"><p><a href="<?php the_permalink(); ?>" onclick="history.pushState('teste','Titulo de teste','<?php the_permalink(); ?>'); return false;" type="button" data-toggle="modal" data-target="#myModal"><?php  title_lenght(60) ?>...</a></p></div>
 						</h1>
 						<p><div class="resumo-query-slider-centro"><p><?php wp_limit_post(100,'...',true);?></p></div></p>
 						<div class="autor-slider-centro"><?php the_author_posts_link(); ?></div>
@@ -88,7 +87,7 @@
 <span class="opacity"></span>
 						<span class="content">
 						<h1>
-							<div class="titulo-query-slider-centro"><p><a href="<?php the_permalink(); ?>" onclick="history.pushState('teste','Titulo de teste','<?php the_permalink(); ?>'); return false;" type="button" data-toggle="modal" data-target="#myModal"><?php  title_lenght(100) ?></a></p></div>
+							<div class="titulo-query-slider-centro"><p><a href="<?php the_permalink(); ?>" onclick="history.pushState('teste','Titulo de teste','<?php the_permalink(); ?>'); return false;" type="button" data-toggle="modal" data-target="#myModal"><?php  title_lenght(60) ?>...</a></p></div>
 						</h1>
 						<p><div class="resumo-query-slider-centro"><p><?php wp_limit_post(100,'...',true);?></p></div></p>
 						<div class="autor-slider-centro"><?php the_author_posts_link(); ?></div>
@@ -138,7 +137,7 @@
 <span class="opacity"></span>
 						<span class="content">
 						<h1>
-							<div class="titulo-query-slider-centro"><p><a href="<?php the_permalink(); ?>" onclick="history.pushState('teste','Titulo de teste','<?php the_permalink(); ?>'); return false;" type="button" data-toggle="modal" data-target="#myModal"><?php  title_lenght(100) ?></a></p></div>
+							<div class="titulo-query-slider-centro"><p><a href="<?php the_permalink(); ?>" onclick="history.pushState('teste','Titulo de teste','<?php the_permalink(); ?>'); return false;" type="button" data-toggle="modal" data-target="#myModal"><?php  title_lenght(60) ?>...</a></p></div>
 						</h1>
 						<p><div class="resumo-query-slider-centro"><p><?php wp_limit_post(100,'...',true);?></p></div></p>
 						<div class="autor-slider-centro"><?php the_author_posts_link(); ?></div>
