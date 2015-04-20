@@ -32,16 +32,18 @@ Description: A description e opcional. Escreva se quiser!
 
 <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v2.3&appId=898554820177112";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
 
 		<?php wp_head(); ?>
-		<script>
-        // conditionizr.com
-        // configure environment tests
-        conditionizr.config({
-            assets: '<?php echo get_template_directory_uri(); ?>',
-            tests: {}
-        });
-        </script>
+
 
 	</head>
 	<body <?php body_class(); ?>>
@@ -89,7 +91,7 @@ Description: A description e opcional. Escreva se quiser!
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
  <ul class="nav navbar-nav navbar-right">
      	<form class="navbar-form navbar-left" role="search">
-        <?php get_template_part('searchform'); ?>
+        <?php //get_template_part('searchform'); ?>
       </form>
       </ul>
 
@@ -218,7 +220,7 @@ margin-bottom:25px;
 
 
 
-<div class="fb-comments" data-href="http://localhost/PJNovosDialogosWp/novosdialogos/?p=<?php the_ID(); ?>" data-numposts="5" data-colorscheme="light"></div>
+<div class="fb-comments" data-href="https://www.facebook.com/revistanovosdialogos/?p=<?php the_ID(); ?>" data-numposts="5" data-colorscheme="light"></div>
 
 
 <div class="close"><a href="http://localhost/PJNovosDialogosWp/novosdialogos/"><span aria-hidden="true">&times;</span></a></div>
@@ -251,4 +253,4 @@ margin-bottom:25px;
 
 <?php //get_sidebar(); ?>
 
-<?php get_footer(); ?>
+<?php //get_footer(); ?>
