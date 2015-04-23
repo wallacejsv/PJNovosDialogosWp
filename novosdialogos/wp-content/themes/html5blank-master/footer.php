@@ -4,11 +4,22 @@
 
 			<!-- footer -->
 			<footer class="footer" role="contentinfo">
+				
+				<div class="nav-footer">
+					<ul>
+						<li><a href="#">home</a></li>
+						<li><a href="http://localhost/PJNovosDialogosWp/novosdialogos/sobre/">sobre</a></li>
+						<li><a href="http://localhost/PJNovosDialogosWp/novosdialogos/autores/">autores</a></li>
+						<li><a href="http://localhost/PJNovosDialogosWp/novosdialogos/videos/">videos</a></li>
+						<li><a href="#">podcast</a></li>
+						<li><a href="#">lecionários</a></li>
+					</ul>
+				</div>
 
 				<!-- copyright -->
 				<p class="copyright">
 					&copy; <?php echo date('Y'); ?> Copyright <?php bloginfo('name'); ?>. <?php _e('Powered by', 'html5blank'); ?>
-					<a href="//wordpress.org" title="WordPress">WordPress</a> &amp; <a href="//html5blank.com" title="HTML5 Blank">HTML5 Blank</a>.
+					 <a href="http://oliverartelucas.com.br" title="oliverartelucas"> : oliverartelucas</a>.
 				</p>
 				<!-- /copyright -->
 
@@ -175,6 +186,9 @@ $(window).scroll(function()
 		ga('create', 'UA-XXXXXXXX-XX', 'yourdomain.com');
 		ga('send', 'pageview');
 		</script>
+		
+		
+		
 
 	</body>
 </html>

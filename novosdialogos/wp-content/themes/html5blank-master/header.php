@@ -35,6 +35,36 @@
             tests: {}
         });
         </script>
+        
+        
+        
+<!-- 1 POST QUANDO CLICA NO QUERY DA HOME E ABRE EM MODAL -->
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel"></h4>
+      </div>
+      <div class="modal-body"> <!-- CONTEUDO QUERY DENTRO DO MODAL -->
+        
+	
+
+carregando ...
+
+
+      </div> <!-- //CONTEUDO QUERY DENTRO DO MODAL -->
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- // 1 POST QUANDO CLICA NO QUERY DA HOME E ABRE EM MODAL -->
+
+
+        
 
 	</head>
 	<body <?php body_class(); ?>>
@@ -43,6 +73,7 @@
 
 			<!-- header -->
 			<header class="header clear" role="banner">
+				
 				<div class="centro-header">
 
 				<div class="redes-sociais">
@@ -61,6 +92,7 @@
 							<img src="http://localhost/PJNovosDialogosWp/novosdialogos/wp-content/uploads/2015/04/LOGOTIPO.png" alt="Logo" class="logo-img">
 						</a>
 					</div>
+						
 					<!-- /logo -->
 
 					<!-- nav -->
@@ -71,12 +103,11 @@
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
         <li><a href="#">home <span class="sr-only">(current)</span></a></li>
-        <li><a href="#">sobre</a></li>
-	<li><a href="#">artigos</a></li>
-	<li><a href="#">autores</a></li>
-	<li><a href="#">videos</a></li>
-	<li><a href="#">podcast</a></li>
-	<li><a href="#">lecionários</a></li>
+        <li><a href="http://localhost/PJNovosDialogosWp/novosdialogos/sobre/">sobre</a></li>
+		<li><a href="http://localhost/PJNovosDialogosWp/novosdialogos/autores/">autores</a></li>
+		<li><a href="http://localhost/PJNovosDialogosWp/novosdialogos/videos/">videos</a></li>
+		<li><a href="http://localhost/PJNovosDialogosWp/novosdialogos/podcast/">podcast</a></li>
+		<li><a href="#">lecionários</a></li>
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Dropdown <span class="caret"></span></a>
           <ul class="dropdown-menu" role="menu">

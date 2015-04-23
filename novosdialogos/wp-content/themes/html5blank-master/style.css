@@ -114,7 +114,7 @@ margin-top: 30px;
 /* nav */
 
 
-.navbar-default {
+.navbar-default, .navbar-default2 {
 font-family: 'Ubuntu', sans-serif;
 color: #fff;
 text-transform: uppercase;
@@ -400,9 +400,9 @@ width: 703px;
 
 .autor-slider-pequeno {
   width: 100%;
-  margin-top: -40px;
+  margin-top: -60px;
   text-align: left;
-  padding-left: 79px;
+  padding-left: 11px;
   float: left;
 }
 
@@ -685,8 +685,9 @@ text-align:center;
 }
 
 
-.titulo-query-home {
-margin-top:20px;
+.titulo-query-slider {
+	  margin-top: 70px;
+  margin-left: -69px;
 }
 
 .titulo-query-home p a {
@@ -782,24 +783,23 @@ color: #26a0d6;
   opacity: 10;
   background: #fff;
   position: absolute;
-  top: -3em;
-  right: -26px;
+  top: -0.5em;
+  right: -23px;
   height: 45px;
+  width: 45px;
 }
 
 .modal.in .modal-dialog {
 cursor: auto;
 }
 
-.modal-open .modal {
-  //cursor: no-drop;
-}
 
 
 .texto-content-post p  {
 font-size: 14px;
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
+  margin-bottom: 25px;
 }
 
 #disqus_thread {
@@ -880,7 +880,7 @@ h1.titulo-singlepost {
   font-size: 17px;
   font-family: 'Open Sans Condensed', sans-serif;
   margin-top: 13px;
-  margin-bottom: 16px;
+  margin-bottom: 4px;
 }
 
 /* imagem do single post */
@@ -898,9 +898,7 @@ h1.titulo-singlepost {
 /* comentarios facebook single post */
 
 .fb-comments {
-	margin-top: 40px;
-  	border-top: 1px solid #ccc;
-  	padding-top: 40px;
+	margin-top: 10px;
   	width: 100%;
 }
 
@@ -912,14 +910,61 @@ section.secao-conteudo-singlepost {
 }
 
 
+/* Like single post principal */
+
+.fb-like {
+	margin-bottom: 10px;
+}
+
+.autor-singlepost {
+	margin: 0;
+  	margin-bottom: 0px;
+  	font-size: 17px;
+  	font-family: 'Open Sans Condensed', sans-serif;
+  	font-weight: 600;
+  	text-transform: capitalize;
+}
+
+.autor-singlepost a {
+	font-size: 17px;
+  	font-family: 'Open Sans Condensed', sans-serif;
+  	font-weight: 600;
+  	text-transform: capitalize;
+}
 
 
+/* tags single post */
 
+.tags-single {
+	margin-bottom: 16px;
+	font-family: "Open Sans Condensed", sans-serif;
+	font-size: 17px;	
+}
 
+.tags-single a {
+	
+}
 
+/* pagina sobre */
 
+.sobre-page {
+  margin: 28px 0px 0px 0px;
+  padding-right: 20px;	
+}
 
+.sobre-page h1 {
+	  font-size: 44px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
 
+.texto-page p {
+	  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  margin-bottom: 25px;
+}
 
 
 
@@ -951,10 +996,6 @@ section.secao-conteudo-singlepost {
   margin-top: 22px !important;
 }
 
-.sidebar-maisrecentes {
-//clear: both;
-}
-
 
 
 .modal.in .modal-dialog {
@@ -967,7 +1008,7 @@ cursor: auto;
 
 .modal-open .modal {
 cursor: no-drop;
-  pointer-events: none;
+  //pointer-events: none;
 }
 
 
@@ -980,12 +1021,33 @@ float: right;
 padding: 20px;
 }
 
+/* videos query */
+.query-posts-videos {
+  float: none;	
+  width: 665px;
+    height: auto;
+  margin-bottom: 150px;
+}
+
+.query-posts-videos .img2 {
+	float:left;
+	margin-right: 25px;
+}
+
+.query-posts-videos .resumo-query-home {
+	border:none;
+}
+
+.query-posts-videos .share {
+	display:none;
+}
+
 /* footer */
 .footer {
   float: left;
   width: 100%;
   max-width: 100%;
-//display:none;
+display:none;
 }
 
 /* Effect 15: scale down, reveal */
@@ -1012,6 +1074,80 @@ padding: 20px;
     PAGES
 \*------------------------------------*/
 
+/* nav footer */
+.nav-footer {
+  float: left;
+  width: 100%;
+  margin-top: 40px;
+  margin-bottom: 40px;	
+}
+
+.nav-footer ul {
+	  list-style: none;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  width: 1035px;
+  margin: auto;
+  padding: 0;
+  max-width:100%;
+}
+
+.nav-footer ul li {
+	
+}
+
+.nav-footer ul li a {
+  color: #fff;
+  font-size: 13px;
+  text-transform: uppercase;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  line-height: 22px;
+}
+
+p.copyright {
+  text-align: center;
+  color: #fff;	
+}
+
+p.copyright a {
+	color: #fff;	
+}
+
+.close1 {
+  -webkit-appearance: none;
+  padding: 0px 0px 0px 11px;
+  border-radius: 0;
+  cursor: default;
+  border: 0;
+  font-size: 38px;
+  opacity: 10;
+  background: transparent;
+  position: absolute;
+  top: -1.01em;
+  left: 19em;
+  right: 0em;
+  height: 104%;
+  width: 100%;
+ }
+ 
+ .close1-left {
+-webkit-appearance: none;
+  padding: 0px 0px 0px 11px;
+  border-radius: 0;
+  cursor: default;
+  border: 0;
+  font-size: 38px;
+  opacity: 10;
+  background: transparent;
+  position: absolute;
+  top: -1.01em;
+  left: -19.6em;
+  right: 0em;
+  height: 104%;
+  width: 100%;
+ }
+ 
 
 
 /*------------------------------------*\

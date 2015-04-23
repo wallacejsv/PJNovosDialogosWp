@@ -179,14 +179,7 @@
 	if( $my_posts ):
 	foreach( $my_posts as $post ) :	setup_postdata($post); ?>
 
-
-<?php if ( has_post_thumbnail()) : ?>
-   
-   <div class="img2-sibebar"><a href="<?php the_permalink(); ?>" onclick="history.pushState('teste','Titulo de teste','<?php the_permalink(); ?>'); return false;" type="button" data-toggle="modal" data-target="#myModal"><?php the_post_thumbnail(array(870,420)); ?></a></div>
-   
- <?php endif; ?>
-	
-	<div class="titulo-query-home titulo-query-slider"><p><a href="<?php the_permalink(); ?>" onclick="history.pushState('teste','Titulo de teste','<?php the_permalink(); ?>'); return false;" type="button" data-toggle="modal" data-target="#myModal"><?php  title_lenght(25) ?></a></p></div>
+	<div class="titulo-query-slider"><p><a href="<?php the_permalink(); ?>" onclick="history.pushState('teste','Titulo de teste','<?php the_permalink(); ?>'); return false;" type="button" data-toggle="modal" data-target="#myModal"><?php  title_lenght(25) ?></a></p></div>
 
 <div class="autor-slider-pequeno"><?php the_author_posts_link(); ?></div>
 
@@ -223,16 +216,9 @@
 	if( $my_posts ):
 	foreach( $my_posts as $post ) :	setup_postdata($post); ?>
 
-
-<?php if ( has_post_thumbnail()) : ?>
-   
-   <div class="img2-sibebar"><a href="<?php the_permalink(); ?>" onclick="history.pushState('teste','Titulo de teste','<?php the_permalink(); ?>'); return false;" type="button" data-toggle="modal" data-target="#myModal"><?php the_post_thumbnail(array(870,420)); ?></a></div>
+	<div class="titulo-query-slider"><p><a href="<?php the_permalink(); ?>" onclick="history.pushState('teste','Titulo de teste','<?php the_permalink(); ?>'); return false;" type="button" data-toggle="modal" data-target="#myModal"><?php  title_lenght(25) ?></a></p></div>
 
 <div class="autor-slider-pequeno"><?php the_author_posts_link(); ?></div>
-   
- <?php endif; ?>
-	
-	<div class="titulo-query-home titulo-query-slider"><p><a href="<?php the_permalink(); ?>" onclick="history.pushState('teste','Titulo de teste','<?php the_permalink(); ?>'); return false;" type="button" data-toggle="modal" data-target="#myModal"><?php  title_lenght(25) ?></a></p></div>
 
 	<?php 
 	endforeach; 
@@ -268,16 +254,9 @@
 	if( $my_posts ):
 	foreach( $my_posts as $post ) :	setup_postdata($post); ?>
 
-
-<?php if ( has_post_thumbnail()) : ?>
-   
-   <div class="img2-sibebar"><a href="<?php the_permalink(); ?>" onclick="history.pushState('teste','Titulo de teste','<?php the_permalink(); ?>'); return false;" type="button" data-toggle="modal" data-target="#myModal"><?php the_post_thumbnail(array(870,420)); ?></a></div>
+	<div class="titulo-query-slider"><p><a href="<?php the_permalink(); ?>" onclick="history.pushState('teste','Titulo de teste','<?php the_permalink(); ?>'); return false;" type="button" data-toggle="modal" data-target="#myModal"><?php  title_lenght(25) ?></a></p></div>
 
 <div class="autor-slider-pequeno"><?php the_author_posts_link(); ?></div>
-   
- <?php endif; ?>
-	
-	<div class="titulo-query-home titulo-query-slider"><p><a href="<?php the_permalink(); ?>" onclick="history.pushState('teste','Titulo de teste','<?php the_permalink(); ?>'); return false;" type="button" data-toggle="modal" data-target="#myModal"><?php  title_lenght(25) ?></a></p></div>
 
 	<?php 
 	endforeach; 
@@ -484,30 +463,6 @@
 
 
 
-<!-- 1 POST QUANDO CLICA NO QUERY DA HOME E ABRE EM MODAL -->
-<!-- Modal -->
-<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
-      </div>
-      <div class="modal-body"> <!-- CONTEUDO QUERY DENTRO DO MODAL -->
-        
-	
-
-Loading ...
-
-
-      </div> <!-- //CONTEUDO QUERY DENTRO DO MODAL -->
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
-      </div>
-    </div>
-  </div>
-</div>
-<!-- // 1 POST QUANDO CLICA NO QUERY DA HOME E ABRE EM MODAL -->
 
 
 

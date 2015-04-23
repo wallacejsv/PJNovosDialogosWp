@@ -53,21 +53,34 @@ Description: A description e opcional. Escreva se quiser!
 			<!-- header -->
 			<header class="header clear" role="banner">
 				<div class="centro-header">
+					
+					<a href="javascript:history.go()" onClick="javascript:window.history.back();"><div class="close1"><span aria-hidden="true"></span></div></a>
+					<a href="javascript:history.go()" onClick="javascript:window.history.back();"><div class="close1-left"><span aria-hidden="true"></span></div></a>
+					<a href="javascript:history.go()" onClick="javascript:window.history.back();"><div class="close"><span aria-hidden="true">&times;</span></div></a>
+					
+				<div class="redes-sociais2">
+					<ul>
+						<li><a href="#" target="_blank"><i class="fa fa-facebook"></i></a></li>
+						<li><a href="#" target="_blank"><i class="fa fa-twitter"></i></a></li>
+						<li><a href="#" target="_blank"><i class="fa fa-youtube-play"></i></a></li>
+						<li><a href="#" target="_blank"><i class="fa fa-vimeo-square"></i></a></li>
+						<li><a href="#" target="_blank"><i class="fa fa-rss"></i></a></li>
+					</ul>
+				</div>
 
 					<!-- nav -->
 
-<nav class="navbar navbar-default">
+<nav class="navbar2 navbar-default2">
   <div class="container-fluid">
    
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav">
+      <ul class="nav2 navbar-nav2">
         <li><a href="#">home <span class="sr-only">(current)</span></a></li>
-        <li><a href="#">sobre</a></li>
-	<li><a href="#">artigos</a></li>
-	<li><a href="#">autores</a></li>
-	<li><a href="#">videos</a></li>
-	<li><a href="#">podcast</a></li>
-	<li><a href="#">lecionários</a></li>
+        <li><a href="http://localhost/PJNovosDialogosWp/novosdialogos/sobre/">sobre</a></li>
+		<li><a href="http://localhost/PJNovosDialogosWp/novosdialogos/autores/">autores</a></li>
+		<li><a href="http://localhost/PJNovosDialogosWp/novosdialogos/videos/">videos</a></li>
+		<li><a href="http://localhost/PJNovosDialogosWp/novosdialogos/podcast/">podcast</a></li>
+		<li><a href="#">lecionários</a></li>
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Dropdown <span class="caret"></span></a>
           <ul class="dropdown-menu" role="menu">
@@ -85,19 +98,7 @@ Description: A description e opcional. Escreva se quiser!
   </div><!-- /.container-fluid -->
 </nav>
 
-<nav class="navbar navbar-default nav-bar-right">
-  <div class="container-fluid">
-   
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
- <ul class="nav navbar-nav navbar-right">
-     	<form class="navbar-form navbar-left" role="search">
-        <?php //get_template_part('searchform'); ?>
-      </form>
-      </ul>
 
-  </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
-</nav>
 
 
 
@@ -121,22 +122,65 @@ Description: A description e opcional. Escreva se quiser!
 
 <style>
 
-.redes-sociais, nav.navbar.navbar-default.nav-bar-right {display:none}
+.redes-sociais2, nav2.navbar2.navbar-default2.nav-bar-right {display:none}
 
-.nav {
+/*.nav {
 	text-align: center;
   	margin: 0 auto;
   	float: none;
   	padding-left: 75px;
   	padding-right: 75px;
 }
+*/
 
-.nav li {
-	text-align: center;
+
+.navbar-default2 .navbar-nav2>.active>a, .navbar-default2 .navbar-nav2>li>a {
+color: #fff;
+  margin-bottom: -5px;
+  position: relative;
+  padding-top: 11px;
+  padding-bottom: 5px;
+  margin-top: 3px;
+  padding-left: 0;
+  padding-right: 0;
+  margin-right: 13px;
+  font-size: 13px;
 }
 
-.navbar-default {
+.navbar-default2 .navbar-nav2>li>a:hover {
+  color: #fff;
+  background-color: transparent;
+  border-bottom: 5px solid #0077a4;
+  margin-bottom: -5px;
+  position: relative;
+  padding-top: 11px;
+  padding-bottom: 5px;
+  margin-top: 3px;
+padding-left: 0;
+  padding-right: 0;
+}
+
+
+.nav2 li {
+	text-align: center;
+	text-align: center;
+  	padding-bottom: 15px;
+  	padding-top: 15px;
+  	  float: left;
+}
+
+ul.nav2 {
+	list-style: none;
+	  width: 100%;
+}
+
+.nav2>li>a {
+	color: #fff;
+}
+
+.navbar-default2 {
 	width: 100%;
+	margin-bottom: 25px;
 }
 
 .logo2 {
@@ -145,19 +189,17 @@ Description: A description e opcional. Escreva se quiser!
   	margin-bottom: 38px;
 }
 
-.navbar-default {
-margin-bottom: 25px;
-}
 
 main {
 margin-top:20px;
 margin-bottom:25px;
 }
 
-.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>li>a {
+/*.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>li>a {
   margin-right: 14px;
   font-size: 11px;
-}
+}*/
+
 
 </style>
 
@@ -182,6 +224,15 @@ margin-bottom:25px;
 			<!-- Data do post -->
 				<div class="data-singlepost"><?php the_time('j \d\e F \d\e Y') ?></div>
 			<!-- //Data do post -->
+			
+			
+			
+			<!-- autor single -->
+			<div class="autor-singlepost">Por: <?php the_author_posts_link(); ?></div>
+			
+			<!-- tags -->
+			<div class="tags-single"><?php the_tags( 'Tags: ',' > ' ); ?></div>
+			
 			
 			<!-- botão de curtir a pagina -->
 				<div class="fb-like" data-href="http://facebook.com/revistanovosdialogos" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div>
@@ -216,14 +267,18 @@ margin-bottom:25px;
 			<!--<?php edit_post_link(); // Always handy to have Edit Post Links available ?>-->
 
 			 <?php //comments_template(); ?>
-
+			 
+			 
+			<div class="author-single-total">
+				<?php echo do_shortcode("[starbox]"); ?>
+			</div> 
 
 
 
 <div class="fb-comments" data-href="https://www.facebook.com/revistanovosdialogos/?p=<?php the_ID(); ?>" data-numposts="5" data-colorscheme="light"></div>
 
 
-<div class="close"><a href="http://localhost/PJNovosDialogosWp/novosdialogos/"><span aria-hidden="true">&times;</span></a></div>
+<!--<div class="close"><a href="http://localhost/PJNovosDialogosWp/novosdialogos/"><span aria-hidden="true">&times;</span></a></div>-->
 <!--onClick="window.location = 'http://localhost/PJNovosDialogosWp/novosdialogos/'; window.location.reload(true);"-->
 
 

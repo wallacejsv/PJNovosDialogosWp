@@ -572,4 +572,5 @@ function wp_limit_post($max_char, $more_link_text = '[...]',$notagp = false, $st
 
 
 
+
 ?>
