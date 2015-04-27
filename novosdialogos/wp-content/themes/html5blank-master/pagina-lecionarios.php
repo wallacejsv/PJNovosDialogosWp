@@ -1,4 +1,4 @@
-<?php /* Template Name: Pagina podcast */ get_header(); ?>
+<?php /* Template Name: Pagina lecionarios */ get_header(); ?>
 
 <head>
 
@@ -15,17 +15,6 @@ footer {
   	background: #0077a4;
   	margin-top: 50px;
 }
-
-span.author {
-  float: left;
-  margin: 0px 0px 10px 0px;
-  width: 100%;	
-}
-
-.query-posts-videos {
-	margin-bottom: 40px;
-}
-
 </style>
 
 	<main role="main">
@@ -33,8 +22,6 @@ span.author {
 <section class="home-posts">
 
 
-
-   
 
 
 
@@ -51,7 +38,7 @@ span.author {
 
 <?php
 	$args = array(
-		'category_name'=>'podcast',
+		'category_name'=>'lecionarios',
 		'numberposts'=>1,
 		'offset'=>0
 		);
@@ -68,9 +55,10 @@ span.author {
    
  <?php endif; ?>
 	
-	<div class="titulo-query-home"><p><a href="<?php the_permalink(); ?>" onclick="history.pushState('teste','Titulo de teste','<?php the_permalink(); ?>'); return false;" type="button" data-toggle="modal" data-target="#myModal"><?php  title_lenght(150) ?></a></p></div>
-	  <span class="author"><?php _e( 'por', 'html5blank' ); ?> <?php the_author_posts_link(); ?></span>
-	  <div class="resumo-query-home"><p><?php wp_limit_post(200,'...',true);?></p></div>
+	<div class="titulo-query-home"><p><a href="<?php the_permalink(); ?>" onclick="history.pushState('teste','Titulo de teste','<?php the_permalink(); ?>'); return false;" type="button" data-toggle="modal" data-target="#myModal"><?php  title_lenght(30) ?></a></p></div>
+
+	  <div class="resumo-query-home"><p><?php wp_limit_post(100,'...',true);?></p></div>
+	 <span class="author"><?php _e( 'por', 'html5blank' ); ?> <?php the_author_posts_link(); ?></span>
 
 	<a class="share" href="#"><i class="fa fa-share-alt"></i></a>
 
@@ -90,7 +78,7 @@ span.author {
 
 <?php
 	$args = array(
-		'category_name'=>'podcast',
+		'category_name'=>'lecionarios',
 		'numberposts'=>1,
 		'offset'=>1
 		);
@@ -107,9 +95,10 @@ span.author {
    
  <?php endif; ?>
 	
-	<div class="titulo-query-home"><p><a href="<?php the_permalink(); ?>" onclick="history.pushState('teste','Titulo de teste','<?php the_permalink(); ?>'); return false;" type="button" data-toggle="modal" data-target="#myModal"><?php  title_lenght(150) ?></a></p></div>
-	  <span class="author"><?php _e( 'por', 'html5blank' ); ?> <?php the_author_posts_link(); ?></span>
-	  <div class="resumo-query-home"><p><?php wp_limit_post(200,'...',true);?></p></div>
+	<div class="titulo-query-home"><p><a href="<?php the_permalink(); ?>" onclick="history.pushState('teste','Titulo de teste','<?php the_permalink(); ?>'); return false;" type="button" data-toggle="modal" data-target="#myModal"><?php  title_lenght(30) ?></a></p></div>
+
+	  <div class="resumo-query-home"><p><?php wp_limit_post(100,'...',true);?></p></div>
+	 <span class="author"><?php _e( 'por', 'html5blank' ); ?> <?php the_author_posts_link(); ?></span>
 
 	<a class="share" href="#"><i class="fa fa-share-alt"></i></a>
 
@@ -129,7 +118,7 @@ span.author {
 
 <?php
 	$args = array(
-		'category_name'=>'podcast',
+		'category_name'=>'lecionarios',
 		'numberposts'=>1,
 		'offset'=>2
 		);
@@ -146,9 +135,10 @@ span.author {
    
  <?php endif; ?>
 	
-	<div class="titulo-query-home"><p><a href="<?php the_permalink(); ?>" onclick="history.pushState('teste','Titulo de teste','<?php the_permalink(); ?>'); return false;" type="button" data-toggle="modal" data-target="#myModal"><?php  title_lenght(150) ?></a></p></div>
-	  <span class="author"><?php _e( 'por', 'html5blank' ); ?> <?php the_author_posts_link(); ?></span>
-	  <div class="resumo-query-home"><p><?php wp_limit_post(200,'...',true);?></p></div>
+	<div class="titulo-query-home"><p><a href="<?php the_permalink(); ?>" onclick="history.pushState('teste','Titulo de teste','<?php the_permalink(); ?>'); return false;" type="button" data-toggle="modal" data-target="#myModal"><?php  title_lenght(30) ?></a></p></div>
+
+	  <div class="resumo-query-home"><p><?php wp_limit_post(100,'...',true);?></p></div>
+	 <span class="author"><?php _e( 'por', 'html5blank' ); ?> <?php the_author_posts_link(); ?></span>
 
 	<a class="share" href="#"><i class="fa fa-share-alt"></i></a>
 
@@ -169,7 +159,7 @@ span.author {
 
 <?php
 	$args = array(
-		'category_name'=>'podcast',
+		'category_name'=>'lecionarios',
 		'numberposts'=>1,
 		'offset'=>3
 		);
@@ -186,9 +176,10 @@ span.author {
    
  <?php endif; ?>
 	
-	<div class="titulo-query-home"><p><a href="<?php the_permalink(); ?>" onclick="history.pushState('teste','Titulo de teste','<?php the_permalink(); ?>'); return false;" type="button" data-toggle="modal" data-target="#myModal"><?php  title_lenght(150) ?></a></p></div>
-	  <span class="author"><?php _e( 'por', 'html5blank' ); ?> <?php the_author_posts_link(); ?></span>
-	  <div class="resumo-query-home"><p><?php wp_limit_post(200,'...',true);?></p></div>
+	<div class="titulo-query-home"><p><a href="<?php the_permalink(); ?>" onclick="history.pushState('teste','Titulo de teste','<?php the_permalink(); ?>'); return false;" type="button" data-toggle="modal" data-target="#myModal"><?php  title_lenght(30) ?></a></p></div>
+
+	  <div class="resumo-query-home"><p><?php wp_limit_post(100,'...',true);?></p></div>
+	 <span class="author"><?php _e( 'por', 'html5blank' ); ?> <?php the_author_posts_link(); ?></span>
 
 	<a class="share" href="#"><i class="fa fa-share-alt"></i></a>
 
@@ -209,7 +200,7 @@ span.author {
 
 <?php
 	$args = array(
-		'category_name'=>'podcast',
+		'category_name'=>'lecionarios',
 		'numberposts'=>1,
 		'offset'=>4
 		);
@@ -226,9 +217,10 @@ span.author {
    
  <?php endif; ?>
 	
-	<div class="titulo-query-home"><p><a href="<?php the_permalink(); ?>" onclick="history.pushState('teste','Titulo de teste','<?php the_permalink(); ?>'); return false;" type="button" data-toggle="modal" data-target="#myModal"><?php  title_lenght(150) ?></a></p></div>
-	  <span class="author"><?php _e( 'por', 'html5blank' ); ?> <?php the_author_posts_link(); ?></span>
-	  <div class="resumo-query-home"><p><?php wp_limit_post(200,'...',true);?></p></div>
+	<div class="titulo-query-home"><p><a href="<?php the_permalink(); ?>" onclick="history.pushState('teste','Titulo de teste','<?php the_permalink(); ?>'); return false;" type="button" data-toggle="modal" data-target="#myModal"><?php  title_lenght(30) ?></a></p></div>
+
+	  <div class="resumo-query-home"><p><?php wp_limit_post(100,'...',true);?></p></div>
+	 <span class="author"><?php _e( 'por', 'html5blank' ); ?> <?php the_author_posts_link(); ?></span>
 
 	<a class="share" href="#"><i class="fa fa-share-alt"></i></a>
 
@@ -248,7 +240,7 @@ span.author {
 
 <?php
 	$args = array(
-		'category_name'=>'podcast',
+		'category_name'=>'lecionarios',
 		'numberposts'=>1,
 		'offset'=>5
 		);
@@ -265,9 +257,10 @@ span.author {
    
  <?php endif; ?>
 	
-	<div class="titulo-query-home"><p><a href="<?php the_permalink(); ?>" onclick="history.pushState('teste','Titulo de teste','<?php the_permalink(); ?>'); return false;" type="button" data-toggle="modal" data-target="#myModal"><?php  title_lenght(150) ?></a></p></div>
-	  <span class="author"><?php _e( 'por', 'html5blank' ); ?> <?php the_author_posts_link(); ?></span>
-	  <div class="resumo-query-home"><p><?php wp_limit_post(200,'...',true);?></p></div>
+	<div class="titulo-query-home"><p><a href="<?php the_permalink(); ?>" onclick="history.pushState('teste','Titulo de teste','<?php the_permalink(); ?>'); return false;" type="button" data-toggle="modal" data-target="#myModal"><?php  title_lenght(30) ?></a></p></div>
+
+	  <div class="resumo-query-home"><p><?php wp_limit_post(100,'...',true);?></p></div>
+	 <span class="author"><?php _e( 'por', 'html5blank' ); ?> <?php the_author_posts_link(); ?></span>
 
 	<a class="share" href="#"><i class="fa fa-share-alt"></i></a>
 
@@ -294,7 +287,7 @@ span.author {
 
 <?php
 	$args = array(
-		'category_name'=>'podcast',
+		'category_name'=>'lecionarios',
 		'numberposts'=>1,
 		'offset'=>6
 		);
@@ -311,9 +304,10 @@ span.author {
    
  <?php endif; ?>
 	
-	<div class="titulo-query-home"><p><a href="<?php the_permalink(); ?>" onclick="history.pushState('teste','Titulo de teste','<?php the_permalink(); ?>'); return false;" type="button" data-toggle="modal" data-target="#myModal"><?php  title_lenght(150) ?></a></p></div>
-	  <span class="author"><?php _e( 'por', 'html5blank' ); ?> <?php the_author_posts_link(); ?></span>
-	  <div class="resumo-query-home"><p><?php wp_limit_post(200,'...',true);?></p></div>
+	<div class="titulo-query-home"><p><a href="<?php the_permalink(); ?>" onclick="history.pushState('teste','Titulo de teste','<?php the_permalink(); ?>'); return false;" type="button" data-toggle="modal" data-target="#myModal"><?php  title_lenght(30) ?></a></p></div>
+
+	  <div class="resumo-query-home"><p><?php wp_limit_post(100,'...',true);?></p></div>
+	 <span class="author"><?php _e( 'por', 'html5blank' ); ?> <?php the_author_posts_link(); ?></span>
 
 	<a class="share" href="#"><i class="fa fa-share-alt"></i></a>
 
@@ -333,7 +327,7 @@ span.author {
 
 <?php
 	$args = array(
-		'category_name'=>'podcast',
+		'category_name'=>'lecionarios',
 		'numberposts'=>1,
 		'offset'=>7
 		);
@@ -350,9 +344,10 @@ span.author {
    
  <?php endif; ?>
 	
-	<div class="titulo-query-home"><p><a href="<?php the_permalink(); ?>" onclick="history.pushState('teste','Titulo de teste','<?php the_permalink(); ?>'); return false;" type="button" data-toggle="modal" data-target="#myModal"><?php  title_lenght(150) ?></a></p></div>
-	  <span class="author"><?php _e( 'por', 'html5blank' ); ?> <?php the_author_posts_link(); ?></span>
-	  <div class="resumo-query-home"><p><?php wp_limit_post(200,'...',true);?></p></div>
+	<div class="titulo-query-home"><p><a href="<?php the_permalink(); ?>" onclick="history.pushState('teste','Titulo de teste','<?php the_permalink(); ?>'); return false;" type="button" data-toggle="modal" data-target="#myModal"><?php  title_lenght(30) ?></a></p></div>
+
+	  <div class="resumo-query-home"><p><?php wp_limit_post(100,'...',true);?></p></div>
+	 <span class="author"><?php _e( 'por', 'html5blank' ); ?> <?php the_author_posts_link(); ?></span>
 
 	<a class="share" href="#"><i class="fa fa-share-alt"></i></a>
 

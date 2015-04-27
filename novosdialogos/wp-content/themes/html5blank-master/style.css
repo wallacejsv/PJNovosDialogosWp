@@ -967,7 +967,6 @@ section.secao-conteudo-singlepost {
 }
 
 
-
 /* sidebar */
 
 
@@ -976,7 +975,7 @@ section.secao-conteudo-singlepost {
   text-align: center;
 }
 
-.sidebar-widget h3, .sidebar-maisrecentes h3 {
+.sidebar-widget h3, .sidebar-maisrecentes h3, .sidebar-novosdialogos h3 {
   background: #DDD;
   margin-top: 0px;
   padding-bottom: 7px;
@@ -1040,6 +1039,12 @@ padding: 20px;
 
 .query-posts-videos .share {
 	display:none;
+}
+
+/* sidebar podscast */
+
+.sidebar-novosdialogos h3 {
+	
 }
 
 /* footer */

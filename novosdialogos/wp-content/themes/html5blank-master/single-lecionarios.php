@@ -1,6 +1,6 @@
 <?php
 /*
-Single Post Template: [single-post2]
+Single Post Template: [single-lecionarios]
 Description: A description e opcional. Escreva se quiser!
 */
 ?>
@@ -171,6 +171,10 @@ Description: A description e opcional. Escreva se quiser!
   		font-size: 14px;
 	}
 
+.artidos-plugin-author {
+	display:none;
+}
+
 
 .navbar-default2 .navbar-nav2>.active>a, .navbar-default2 .navbar-nav2>li>a {
 color: #fff;
@@ -276,13 +280,7 @@ margin-bottom:25px;
 				<div class="fb-like" data-href="http://facebook.com/revistanovosdialogos" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div>
 			<!-- //botao de curtir a pagina -->
 
-			<!-- post thumbnail -->
-			<div class="img-singlepost"><?php if ( has_post_thumbnail()) : // Check if Thumbnail exists ?>
-				
-					<?php the_post_thumbnail(); // Fullsize image for the single post ?>
-				
-			<?php endif; ?></div>
-			<!-- /post thumbnail -->
+		
 
 
 

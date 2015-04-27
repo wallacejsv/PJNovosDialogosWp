@@ -29,6 +29,10 @@ margin-bottom:25px;
   font-size: 11px;
 }
 
+.artidos-plugin-author {
+	display:none;
+}
+
 </style>
 
 	<main role="main">

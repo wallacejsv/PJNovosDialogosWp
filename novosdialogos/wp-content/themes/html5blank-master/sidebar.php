@@ -17,6 +17,45 @@
 </aside>
 
 
+<!-- <aside class="sidebar sidebar-novosdialogos">
+	
+	<h3>podcast novos dialogos</h3>
+	
+<div class="query-sidebar">
+
+<?php
+	$args = array(
+		'category_name'=>'podcast',
+		'numberposts'=>1,
+		'offset'=>0
+		);
+ 
+	$my_posts = get_posts($args);
+ 
+	if( $my_posts ):
+	foreach( $my_posts as $post ) :	setup_postdata($post); ?>
+
+
+<?php if ( has_post_thumbnail()) : ?>
+   
+   <div class="img2-sibebar"><a href="<?php the_permalink(); ?>" onclick="history.pushState('teste','Titulo de teste','<?php the_permalink(); ?>'); return false;" type="button" data-toggle="modal" data-target="#myModal"><?php the_post_thumbnail(array(870,420)); ?></a></div>
+   
+ <?php endif; ?>
+	
+	<div class="titulo-query-home titulo-query-sidebar"><p><a href="<?php the_permalink(); ?>" onclick="history.pushState('teste','Titulo de teste','<?php the_permalink(); ?>'); return false;" type="button" data-toggle="modal" data-target="#myModal"><?php  title_lenght(60) ?></a>...</p></div>
+
+	<?php 
+	endforeach; 
+	else:
+	?>
+	<p></p>
+    <?php endif; ?>
+
+</div> 
+
+	
+</aside> -->
+
 
 <aside class="sidebar sidebar-facebook">
 

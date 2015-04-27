@@ -102,12 +102,12 @@ carregando ...
    
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li><a href="#">home <span class="sr-only">(current)</span></a></li>
+        <li><a href="http://localhost/PJNovosDialogosWp/novosdialogos/">home <span class="sr-only">(current)</span></a></li>
         <li><a href="http://localhost/PJNovosDialogosWp/novosdialogos/sobre/">sobre</a></li>
-		<li><a href="http://localhost/PJNovosDialogosWp/novosdialogos/autores/">autores</a></li>
+		<li><a href="http://localhost/PJNovosDialogosWp/novosdialogos/autores/">vozes</a></li>
 		<li><a href="http://localhost/PJNovosDialogosWp/novosdialogos/videos/">videos</a></li>
 		<li><a href="http://localhost/PJNovosDialogosWp/novosdialogos/podcast/">podcast</a></li>
-		<li><a href="#">lecionários</a></li>
+		<li><a href="http://localhost/PJNovosDialogosWp/novosdialogos/lecionarios/">lecionários</a></li>
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Dropdown <span class="caret"></span></a>
           <ul class="dropdown-menu" role="menu">

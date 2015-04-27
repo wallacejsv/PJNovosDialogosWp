@@ -75,12 +75,12 @@ Description: A description e opcional. Escreva se quiser!
    
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav2 navbar-nav2">
-        <li><a href="#">home <span class="sr-only">(current)</span></a></li>
+        <li><a href="http://localhost/PJNovosDialogosWp/novosdialogos/">home <span class="sr-only">(current)</span></a></li>
         <li><a href="http://localhost/PJNovosDialogosWp/novosdialogos/sobre/">sobre</a></li>
-		<li><a href="http://localhost/PJNovosDialogosWp/novosdialogos/autores/">autores</a></li>
+		<li><a href="http://localhost/PJNovosDialogosWp/novosdialogos/autores/">vozes</a></li>
 		<li><a href="http://localhost/PJNovosDialogosWp/novosdialogos/videos/">videos</a></li>
 		<li><a href="http://localhost/PJNovosDialogosWp/novosdialogos/podcast/">podcast</a></li>
-		<li><a href="#">lecionários</a></li>
+		<li><a href="http://localhost/PJNovosDialogosWp/novosdialogos/lecionarios/">lecionários</a></li>
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Dropdown <span class="caret"></span></a>
           <ul class="dropdown-menu" role="menu">
@@ -132,6 +132,49 @@ Description: A description e opcional. Escreva se quiser!
   	padding-right: 75px;
 }
 */
+
+
+.abh_tab_content .abh_social {
+  display: block !important;
+}
+
+	.abh_tab_content .abh_text .abh_description {
+		display:block !important;
+	}
+
+.artidos-plugin-author {
+	display:block !important;
+}
+
+.artidos-plugin-author .abh_text {
+  margin-left: 110px;
+  display:none;
+}
+
+	.abh_tab_content .abh_image img {
+		  max-width: 70px !important;
+  		  height: 70px;
+	}
+	
+	.nome-author-plugin {
+  		 width: 105px !important;
+  		margin: 6px 10px 10px 0px !important;
+  		text-align: left !important;
+  		line-height: 15px;
+	}
+	
+	.abh_tab_content .abh_image {
+		width: 85px !important;
+	}
+	
+	.nome-author-plugin a {
+  		
+  		font-size: 14px;
+	}
+
+.artidos-plugin-author {
+	display:none;
+}
 
 
 .navbar-default2 .navbar-nav2>.active>a, .navbar-default2 .navbar-nav2>li>a {
@@ -202,7 +245,7 @@ margin-bottom:25px;
 
 
 </style>
- <div class="foto2type" id="foto2typeid"><?php echo(types_render_field( "podcast", array( "arg1" => "val1", "arg2" => "val2" ) )); ?></div>
+ 
 	<main role="main">
 
 	<!-- section -->

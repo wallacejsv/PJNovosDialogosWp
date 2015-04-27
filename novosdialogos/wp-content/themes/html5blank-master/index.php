@@ -1,5 +1,45 @@
 <?php get_header(); ?>
 
+<style>
+	.abh_tab_content {
+		  background: transparent !important;
+	}
+	
+	.abh_tab_content .abh_image img {
+		  max-width: 70px !important;
+  		  height: 70px;
+	}
+	.abh_box {
+		  margin-top: -35px;
+	}
+	
+	.abh_tab_content .abh_text .abh_description {
+		display:none;
+	}
+	
+	.nome-author-plugin {
+  		  width: 105px !important;
+  		float: right !important;
+ 		 margin: -65px 22px 10px 0 !important;
+ 		 text-align: left !important;
+ 		   line-height: 15px;
+	}
+	
+	.nome-author-plugin a {
+  		color: #fff;
+  		font-size: 14px;
+	}
+	.abh_tab_content .abh_image {
+		width:80px !important;
+		margin-right: 10px !important;
+	}
+	
+	.abh_tab_content .abh_social {
+		display: none;
+	}
+
+</style>
+
 	<main role="main">
 
 		<!-- section -->
@@ -293,24 +333,16 @@
   <div class="carousel-inner" role="listbox">
 
     <div class="item active">
-      <!--<img src="..." alt="...">-->
-
-	<?php if (have_posts()): while (have_posts()) : the_post(); ?>
-
-		<!-- article -->
-		<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+     
 		<div class="secao-autor">
-			<div class="author-bio-box2"><?php if ( function_exists( 'get_author_bio_box' ) ) echo get_author_bio_box(); ?></div>
+			
+			<div class="author-bio-box2"><?php echo do_shortcode('[starbox  id="1"]'); ?></div>
+			<div class="author-bio-box2"><?php echo do_shortcode('[starbox  id="2"]'); ?></div>
+			<div class="author-bio-box2"><?php echo do_shortcode('[starbox  id="3"]'); ?></div>
+			<div class="author-bio-box2"><?php echo do_shortcode('[starbox  id="4"]'); ?></div>	
+			
 		</div> <!-- //secao-autor -->
 
-		</article>
-		<!-- /article -->
-
-	<?php endwhile; ?>
-
-	<?php else: ?>
-
-	<?php endif; ?>	
 
       <div class="carousel-caption">
         ...
@@ -319,30 +351,40 @@
 
 
     <div class="item">
-      <!--<img src="..." alt="...">-->
-
-
-	<?php if (have_posts()): while (have_posts()) : the_post(); ?>
-
-		<!-- article -->
-		<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+     
 		<div class="secao-autor">
-			<div class="author-bio-box2"><?php if ( function_exists( 'get_author_bio_box' ) ) echo get_author_bio_box(); ?></div>
+			
+			<div class="author-bio-box2"><?php echo do_shortcode('[starbox  id="5"]'); ?></div>
+			<div class="author-bio-box2"><?php echo do_shortcode('[starbox  id="6"]'); ?></div>
+			<div class="author-bio-box2"><?php echo do_shortcode('[starbox  id="7"]'); ?></div>
+			<div class="author-bio-box2"><?php echo do_shortcode('[starbox  id="8"]'); ?></div>
+			
 		</div> <!-- //secao-autor -->
-
-		</article>
-		<!-- /article -->
-
-	<?php endwhile; ?>
-
-	<?php else: ?>
-
-	<?php endif; ?>	
 
       <div class="carousel-caption">
         ...
       </div>
     </div>
+    
+    
+    
+       <!-- <div class="item">
+     
+		<div class="secao-autor">
+			
+			<div class="author-bio-box2"><?php echo do_shortcode('[starbox  id="9"]'); ?></div>
+			<div class="author-bio-box2"><?php echo do_shortcode('[starbox  id="10"]'); ?></div>
+			<div class="author-bio-box2"><?php echo do_shortcode('[starbox  id="11"]'); ?></div>
+			<div class="author-bio-box2"><?php echo do_shortcode('[starbox  id="12"]'); ?></div>
+			
+		</div> 
+
+      <div class="carousel-caption">
+        ...
+      </div>
+    </div> -->
+    
+    
 
   </div>
 
@@ -454,6 +496,8 @@
 
 
 <!-- -------------------------------------------------------------- //HOME QUERY SEM MODAL DESATIVADO --------------------------------------------------------------- -->
+
+
 
 
 

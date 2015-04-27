@@ -7,12 +7,12 @@
 				
 				<div class="nav-footer">
 					<ul>
-						<li><a href="#">home</a></li>
+						<li><a href="http://localhost/PJNovosDialogosWp/novosdialogos/">home</a></li>
 						<li><a href="http://localhost/PJNovosDialogosWp/novosdialogos/sobre/">sobre</a></li>
-						<li><a href="http://localhost/PJNovosDialogosWp/novosdialogos/autores/">autores</a></li>
+						<li><a href="http://localhost/PJNovosDialogosWp/novosdialogos/autores/">vozes</a></li>
 						<li><a href="http://localhost/PJNovosDialogosWp/novosdialogos/videos/">videos</a></li>
-						<li><a href="#">podcast</a></li>
-						<li><a href="#">lecionários</a></li>
+						<li><a href="http://localhost/PJNovosDialogosWp/novosdialogos/podcast">podcast</a></li>
+						<li><a href="http://localhost/PJNovosDialogosWp/novosdialogos/lecionarios/">lecionários</a></li>
 					</ul>
 				</div>
 
