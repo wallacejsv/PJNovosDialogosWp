@@ -19,7 +19,7 @@
 				<!-- copyright -->
 				<p class="copyright">
 					&copy; <?php echo date('Y'); ?> Copyright <?php bloginfo('name'); ?>. <?php _e('Powered by', 'html5blank'); ?>
-					 <a href="http://oliverartelucas.com.br" title="oliverartelucas"> : oliverartelucas</a>.
+					 <a href="http://oliverartelucas.com.br" target="_blank" title="oliverartelucas"> : oliverartelucas</a>.
 				</p>
 				<!-- /copyright -->
 

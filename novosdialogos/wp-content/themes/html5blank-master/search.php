@@ -2,7 +2,7 @@
 
 	<main role="main">
 		<!-- section -->
-		<section>
+		<section class="home-posts sobre-page">
 
 			<h1><?php echo sprintf( __( '%s Search Results for ', 'html5blank' ), $wp_query->found_posts ); echo get_search_query(); ?></h1>
 
@@ -14,6 +14,6 @@
 		<!-- /section -->
 	</main>
 
-<?php get_sidebar(); ?>
+<?php //get_sidebar(); ?>
 
 <?php get_footer(); ?>

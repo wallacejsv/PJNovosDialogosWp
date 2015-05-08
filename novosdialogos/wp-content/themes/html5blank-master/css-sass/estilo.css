@@ -1,0 +1,157 @@
+header {
+  background: #0077a4; }
+  header .centro-header {
+    width: 1024px;
+    margin: 0 auto;
+    max-width: 100%;
+    padding-left: 12px;
+    padding-right: 12px;
+    box-sizing: border-box; }
+    header .centro-header .redes-sociais {
+      float: right;
+      width: 190px; }
+      header .centro-header .redes-sociais ul {
+        list-style: none; }
+      header .centro-header .redes-sociais .fa {
+        float: left;
+        color: #fff;
+        font-size: 15px;
+        margin-right: 17px; }
+
+#welcomeHero {
+  float: left;
+  max-width: 100%;
+  margin-top: 30px; }
+  #welcomeHero #slideshow-main {
+    width: 703px;
+    max-width: 100%;
+    float: left;
+    margin-right: 0; }
+    #welcomeHero #slideshow-main ul {
+      margin: 0;
+      padding: 0;
+      width: 703px;
+      max-width: 100%; }
+    #welcomeHero #slideshow-main li {
+      width: 703px;
+      max-width: 100%;
+      height: 357px;
+      display: none;
+      position: relative; }
+      #welcomeHero #slideshow-main li img {
+        width: 703px;
+        max-width: 100%; }
+      #welcomeHero #slideshow-main li.active {
+        display: block; }
+      #welcomeHero #slideshow-main li span.opacity {
+        position: absolute;
+        bottom: 0px;
+        left: 0px;
+        display: block;
+        width: 100%;
+        height: 120px;
+        background: #000;
+        filter: alpha(opacity=50);
+        -moz-opacity: 0.5;
+        -khtml-opacity: 0.5;
+        opacity: 0.5;
+        z-index: 500; }
+      #welcomeHero #slideshow-main li span.content {
+        position: absolute;
+        bottom: 45px;
+        left: 0;
+        display: block;
+        width: 100%;
+        height: 60px;
+        z-index: 1000; }
+        #welcomeHero #slideshow-main li span.content h1 {
+          font-size: 14px;
+          margin: 5px 0;
+          padding: 0 10px;
+          color: #42e2e8; }
+        #welcomeHero #slideshow-main li span.content p {
+          font-size: 11px;
+          margin: 5px 0;
+          padding: 0 10px;
+          color: #42e2e8; }
+        #welcomeHero #slideshow-main li span.content .autor-slider-centro {
+          text-align: center;
+          margin-top: 14px; }
+          #welcomeHero #slideshow-main li span.content .autor-slider-centro a {
+            color: #00b9ff;
+            font-family: 'Open Sans', sans-serif;
+            font-weight: 600;
+            font-size: 13px; }
+
+#slideshow-carousel {
+  float: left;
+  width: 297px;
+  max-width: 100%;
+  position: relative; }
+  #slideshow-carousel img {
+    width: 300px;
+    max-width: 100%;
+    opacity: 1; }
+  #slideshow-carousel .active {
+    filter: alpha(opacity=100);
+    -moz-opacity: 1.0;
+    -khtml-opacity: 1.0;
+    opacity: 1.0; }
+  #slideshow-carousel .faded {
+    filter: alpha(opacity=50);
+    -moz-opacity: 0.5;
+    -khtml-opacity: 0.5;
+    opacity: 0.5; }
+  #slideshow-carousel ul {
+    margin: 0;
+    padding: 0;
+    list-style: none; }
+    #slideshow-carousel ul li {
+      height: 97px;
+      position: relative; }
+      #slideshow-carousel ul li .arrow {
+        left: 3px;
+        top: 28px;
+        position: absolute;
+        width: 20px;
+        height: 40px;
+        background: url(images/arrow_white.png) no-repeat 0 0;
+        display: block; }
+      #slideshow-carousel ul li a {
+        width: 300px;
+        max-width: 100%;
+        height: 90px;
+        z-index: 10;
+        float: left;
+        position: relative; }
+      #slideshow-carousel ul li .query-slider {
+        width: 100%;
+        float: left;
+        margin-top: -89px;
+        z-index: 0;
+        background: #777777;
+        padding: 21px 15px 8px 15px;
+        margin-bottom: -1px; }
+        #slideshow-carousel ul li .query-slider .titulo-query-slider p a {
+          color: #fff;
+          margin-top: -70px;
+          z-index: 0;
+          padding-left: 80px;
+          font-family: 'Open Sans Condensed', sans-serif;
+          font-weight: 700;
+          font-size: 18px; }
+        #slideshow-carousel ul li .query-slider .autor-slider-pequeno {
+          width: 100%;
+          margin-top: -60px;
+          text-align: left;
+          padding-left: 11px;
+          float: left; }
+          #slideshow-carousel ul li .query-slider .autor-slider-pequeno a {
+            height: auto;
+            color: #00b9ff;
+            font-family: 'Open Sans', sans-serif;
+            text-transform: uppercase;
+            font-size: 10px;
+            z-index: 0; }
+
+/*# sourceMappingURL=estilo.css.map */

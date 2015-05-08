@@ -1,49 +1,64 @@
 <?php get_header(); ?>
 
+<style>
+footer {
+	display: block !important;
+  	background: #0077a4;
+  	margin-top: 50px;
+}
+</style>
+
 	<main role="main">
 		<!-- section -->
-		<section>
+		<section class="home-posts sobre-page">
+
+	<div class="sobre-author-busca">
 
 		<?php if (have_posts()): the_post(); ?>
 
-			<h1><?php _e( 'Author Archives for ', 'html5blank' ); echo get_the_author(); ?></h1>
+			<!--<h1><?php _e( 'Autor ', 'html5blank' ); echo get_the_author(); ?></h1>-->
+
 
 		<?php if ( get_the_author_meta('description')) : ?>
 
-		<?php echo get_avatar(get_the_author_meta('user_email')); ?>
+		<div class="avatar-author"><?php echo get_avatar(get_the_author_meta('user_email')); ?></div>
 
-			<h2><?php _e( 'About ', 'html5blank' ); echo get_the_author() ; ?></h2>
+			<h2 class="sobre-author"><?php _e( 'Sobre ', 'html5blank' ); echo get_the_author() ; ?></h2>
 
 			<?php echo wpautop( get_the_author_meta('description') ); ?>
 
 		<?php endif; ?>
+
+	</div> <!-- /sobre-author-busca -->
 
 		<?php rewind_posts(); while (have_posts()) : the_post(); ?>
 
 			<!-- article -->
 			<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 
-				<!-- post thumbnail -->
+				<!-- post thumbnail 
+				<div class="imagem-post-author">
 				<?php if ( has_post_thumbnail()) : // Check if Thumbnail exists ?>
 					<a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>">
 						<?php the_post_thumbnail(array(120,120)); // Declare pixel size you need inside the array ?>
 					</a>
 				<?php endif; ?>
-				<!-- /post thumbnail -->
+				</div>
+				 /post thumbnail -->
 
-				<!-- post title -->
-				<h2>
-					<a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><?php the_title(); ?></a>
-				</h2>
-				<!-- /Post title -->
+					<!-- post title -->
+					<h2 class="titulo-singlepost-author">
+						<a href="<?php the_permalink(); ?>" onclick="history.pushState('teste','Titulo de teste','<?php the_permalink(); ?>'); return false;" type="button" data-toggle="modal" data-target="#myModal"><?php the_title(); ?></a>
+					</h2>
+					<!-- /post title -->
 
-				<!-- post details -->
-				<span class="date"><?php the_time('F j, Y'); ?> <?php the_time('g:i a'); ?></span>
-				<span class="author"><?php _e( 'Published by', 'html5blank' ); ?> <?php the_author_posts_link(); ?></span>
-				<span class="comments"><?php comments_popup_link( __( 'Leave your thoughts', 'html5blank' ), __( '1 Comment', 'html5blank' ), __( '% Comments', 'html5blank' )); ?></span>
-				<!-- /post details -->
+				<!-- Data do post -->
+				<div class="data-singlepost"><?php the_time('j \d\e F \d\e Y') ?></div>
+				<!-- //Data do post -->
 
-				<?php html5wp_excerpt('html5wp_index'); // Build your custom callback length in functions.php ?>
+				<div class="excerpt-euthorbusca"><?php wp_limit_post(180,'...',true);?></div>
+
+				<a href="<?php the_permalink(); ?>" onclick="history.pushState('teste','Titulo de teste','<?php the_permalink(); ?>'); return false;" type="button" data-toggle="modal" data-target="#myModal"><div class="excerpt-euthorbusca ver-completo">Leia mais</div></a>
 
 				<br class="clear">
 

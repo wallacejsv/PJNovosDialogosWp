@@ -2,12 +2,12 @@
 
 	<main role="main">
 		<!-- section -->
-		<section>
+		<section class="home-posts sobre-page">
 
 			<!-- article -->
 			<article id="post-404">
 
-				<h1><?php _e( 'Page not found', 'html5blank' ); ?></h1>
+				<h1><?php _e( 'Nada Encontrado!! ', 'html5blank' ); ?></h1>
 				<h2>
 					<a href="<?php echo home_url(); ?>"><?php _e( 'Return home?', 'html5blank' ); ?></a>
 				</h2>
@@ -19,6 +19,6 @@
 		<!-- /section -->
 	</main>
 
-<?php get_sidebar(); ?>
+<?php // get_sidebar(); ?>
 
 <?php get_footer(); ?>
