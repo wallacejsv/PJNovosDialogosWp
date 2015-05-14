@@ -1,6 +1,7 @@
 <?php get_header(); ?>
 
 	<main role="main">
+	<div class="wrapper">
 		<!-- section -->
 		<section class="home-posts sobre-page">
 
@@ -12,6 +13,7 @@
 
 		</section>
 		<!-- /section -->
+	</div><!-- wrapper -->
 	</main>
 
 <?php //get_sidebar(); ?>

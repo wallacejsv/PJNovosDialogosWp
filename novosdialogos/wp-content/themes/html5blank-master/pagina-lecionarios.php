@@ -19,6 +19,7 @@ footer {
 
 	<main role="main">
 		<!-- section -->
+<div class="wrapper">
 <section class="home-posts">
 
 
@@ -371,8 +372,8 @@ footer {
 
 </section> <!--//home-query-->
 		<!-- /section -->
-	</main>
-
+		
 <?php get_sidebar(); ?>
-
+</div><!-- wrapper -->
+	</main>
 <?php get_footer(); ?>

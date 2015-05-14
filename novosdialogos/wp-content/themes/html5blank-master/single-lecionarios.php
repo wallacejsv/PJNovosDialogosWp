@@ -42,6 +42,25 @@ Description: A description e opcional. Escreva se quiser!
 }(document, 'script', 'facebook-jssdk'));</script>
 
 
+<script>
+
+function fonte(e) {
+	var elemento=document.getElementById("texto-content-post");
+	var atual=elemento.style.fontSize;
+	if(e == 'a') {
+		atual = parseInt(atual)+2+'px';
+	}else if(e == 'b') {
+		atual = parseInt(atual)-2+'px';
+	}else if(e == 'c') {
+		atual = 14+'px';
+	}
+
+		elemento.style.fontSize=atual;
+}
+
+</script>
+
+
 		<?php wp_head(); ?>
 
 
@@ -280,6 +299,16 @@ margin-bottom:25px;
 				<div class="fb-like" data-href="http://facebook.com/revistanovosdialogos" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div>
 			<!-- //botao de curtir a pagina -->
 
+
+			<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://novosdialogos.com/?p=<?php the_ID(); ?>" data-via="novosdialogos" data-related="novosdialogos" data-hashtags="novosdialogos">Tweet</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+
+			<div class="controleFonte">
+			 	<input type="button" value="+ aumentar fonte" onclick="fonte('a');"/>
+			 	<input type="button" value="- dimunuir fonte" onclick="fonte('b');"/>
+			 	<input type="button" value="100% fonte normal" onclick="fonte('c');"/>
+			</div>
+
 		
 
 
@@ -292,7 +321,7 @@ margin-bottom:25px;
 			 post details -->
 
 
-			<div class="texto-content-post"><?php the_content(); // Dynamic Content ?></div>
+			<div class="texto-content-post" id="texto-content-post" style="font-size:14px;"><?php the_content(); // Dynamic Content ?></div>
 
 			<!--<?php the_tags( __( 'Tags: ', 'html5blank' ), ', ', '<br>'); // Separated by commas with a line break at the end ?>-->
 

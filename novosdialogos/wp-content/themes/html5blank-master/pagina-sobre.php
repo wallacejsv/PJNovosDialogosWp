@@ -23,7 +23,7 @@ footer {
   	margin-top: 50px;
 }
 </style>
-
+<div class="wrapper">
 	<main role="main">
 		<!-- section -->
 		<section>
@@ -65,5 +65,6 @@ footer {
 	</main>
 
 <?php get_sidebar(); ?>
+</div>
 
 <?php get_footer(); ?>

@@ -78,15 +78,7 @@ carregando ...
 				
 				<div class="centro-header">
 
-				<div class="redes-sociais">
-					<ul>
-						<li><a href="#" target="_blank"><i class="fa fa-facebook"></i></a></li>
-						<li><a href="#" target="_blank"><i class="fa fa-twitter"></i></a></li>
-						<li><a href="#" target="_blank"><i class="fa fa-youtube-play"></i></a></li>
-						<li><a href="#" target="_blank"><i class="fa fa-vimeo-square"></i></a></li>
-						<li><a href="#" target="_blank"><i class="fa fa-rss"></i></a></li>
-					</ul>
-				</div>
+				
 
 					<!-- logo -->
 					<div class="logo">
@@ -97,42 +89,26 @@ carregando ...
 						
 					<!-- /logo -->
 
-					<!-- nav -->
-
-<nav class="navbar navbar-default">
-  <div class="container-fluid">
-   
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav">
-        <li><a href="http://localhost/PJNovosDialogosWp/novosdialogos/">home <span class="sr-only">(current)</span></a></li>
-        <li><a href="http://localhost/PJNovosDialogosWp/novosdialogos/sobre/">sobre</a></li>
-		<li><a href="http://localhost/PJNovosDialogosWp/novosdialogos/autores/">vozes</a></li>
-		<li><a href="http://localhost/PJNovosDialogosWp/novosdialogos/videos/">videos</a></li>
-		<li><a href="http://localhost/PJNovosDialogosWp/novosdialogos/podcast/">podcast</a></li>
-		<li><a href="http://localhost/PJNovosDialogosWp/novosdialogos/lecionarios/">lecionários</a></li>
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Dropdown <span class="caret"></span></a>
-          <ul class="dropdown-menu" role="menu">
-            <li><a href="#">Action</a></li>
-            <li><a href="#">Another action</a></li>
-            <li><a href="#">Something else here</a></li>
-            <li class="divider"></li>
-            <li><a href="#">Separated link</a></li>
-            <li class="divider"></li>
-            <li><a href="#">One more separated link</a></li>
+<div class="redes-sociais">
+  <div class="c-redes">
+          <ul>
+            <li><a href="#" target="_blank"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="#" target="_blank"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="#" target="_blank"><i class="fa fa-youtube-play"></i></a></li>
+            <li><a href="#" target="_blank"><i class="fa fa-vimeo-square"></i></a></li>
+            <li><a href="#" target="_blank"><i class="fa fa-rss"></i></a></li>
           </ul>
-        </li>
-      </ul>
-    </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
-</nav>
+</div>
+        </div>
+
+					<!-- nav -->
 
 <nav class="navbar navbar-default nav-bar-right">
   <div class="container-fluid">
    
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
  <ul class="nav navbar-nav navbar-right">
-     	<form class="navbar-form navbar-left" role="search">
+      <form class="navbar-form navbar-left" role="search">
         <?php get_template_part('searchform'); ?>
       </form>
       </ul>
@@ -143,6 +119,39 @@ carregando ...
 
 
 
+<nav class="navbar navbar-default">
+  <div class="container-fluid menu-principal">
+   
+    <div class="collapse navbar-collapse menu01" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li><a href="http://localhost/PJNovosDialogosWp/novosdialogos/">home <span class="sr-only">(current)</span></a></li>
+        <li><a href="http://localhost/PJNovosDialogosWp/novosdialogos/sobre/">sobre</a></li>
+        <li><a href="http://localhost/PJNovosDialogosWp/novosdialogos/artigos/">artigos</a></li>
+		<li><a href="http://localhost/PJNovosDialogosWp/novosdialogos/autores/">vozes</a></li>
+		<li><a href="http://localhost/PJNovosDialogosWp/novosdialogos/videos/">videos</a></li>
+		<li><a href="http://localhost/PJNovosDialogosWp/novosdialogos/podcast/">podcast</a></li>
+		<li><a href="http://localhost/PJNovosDialogosWp/novosdialogos/lecionarios/" class="ultimo-me">lecionário</a></li>
+        <!--<li class="dropdown">
+          <a href="#" class="dropdown-toggle ultimo-menu" data-toggle="dropdown" role="button" aria-expanded="false">Dropdown <span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
+            <li class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+            <li class="divider"></li>
+            <li><a href="#">One more separated link</a></li>
+          </ul>
+        </li>
+      </ul>-->
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+
+
+
+
 					<!-- /nav -->
 				</div> <!-- //centro-header -->
 			</header>
@@ -150,3 +159,5 @@ carregando ...
 
 		<!-- wrapper -->
 		<div class="wrapper">
+      </div>
+    <!-- /wrapper --> 

@@ -15,6 +15,9 @@ Description: A description e opcional. Escreva se quiser!
         <link href="<?php echo get_template_directory_uri(); ?>/img/icons/favicon.ico" rel="shortcut icon">
         <link href="<?php echo get_template_directory_uri(); ?>/img/icons/touch.png" rel="apple-touch-icon-precomposed">
 
+        <!-- CSS SASS -->
+        <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/css-sass/estilo.css">
+
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 		<meta name="viewport" content="width=device-width,initial-scale=1.0">
 		<meta name="description" content="<?php bloginfo('description'); ?>">
@@ -32,6 +35,7 @@ Description: A description e opcional. Escreva se quiser!
 
 <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 
+
 <div id="fb-root"></div>
 <script>(function(d, s, id) {
   var js, fjs = d.getElementsByTagName(s)[0];
@@ -40,6 +44,25 @@ Description: A description e opcional. Escreva se quiser!
   js.src = "//connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v2.3&appId=898554820177112";
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
+
+
+<script>
+
+function fonte(e) {
+	var elemento=document.getElementById("texto-content-post");
+	var atual=elemento.style.fontSize;
+	if(e == 'a') {
+		atual = parseInt(atual)+2+'px';
+	}else if(e == 'b') {
+		atual = parseInt(atual)-2+'px';
+	}else if(e == 'c') {
+		atual = 14+'px';
+	}
+
+		elemento.style.fontSize=atual;
+}
+
+</script>
 
 
 		<?php wp_head(); ?>
@@ -273,8 +296,17 @@ margin-bottom:25px;
 			
 			
 			<!-- botão de curtir a pagina -->
-				<div class="fb-like" data-href="http://facebook.com/revistanovosdialogos" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div>
+				<div class="fb-like" data-href="http://novosdialogos.com/?p=<?php the_ID(); ?>" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div>
 			<!-- //botao de curtir a pagina -->
+
+			<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://novosdialogos.com/?p=<?php the_ID(); ?>" data-via="novosdialogos" data-related="novosdialogos" data-hashtags="novosdialogos">Tweet</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+
+			<div class="controleFonte">
+			 	<input type="button" value="+ aumentar fonte" onclick="fonte('a');"/>
+			 	<input type="button" value="- dimunuir fonte" onclick="fonte('b');"/>
+			 	<input type="button" value="100% fonte normal" onclick="fonte('c');"/>
+			</div>
 
 			<!-- post thumbnail -->
 			<div class="img-singlepost"><?php if ( has_post_thumbnail()) : // Check if Thumbnail exists ?>
@@ -293,8 +325,7 @@ margin-bottom:25px;
 			<span class="comments"><?php comments_popup_link( __( 'Leave your thoughts', 'html5blank' ), __( '1 Comment', 'html5blank' ), __( '% Comments', 'html5blank' )); ?></span>
 			 post details -->
 
-
-			<div class="texto-content-post"><?php the_content(); // Dynamic Content ?></div>
+			<div class="texto-content-post" id="texto-content-post" style="font-size:14px;"><?php the_content(); // Dynamic Content ?></div>
 
 			<!--<?php the_tags( __( 'Tags: ', 'html5blank' ), ', ', '<br>'); // Separated by commas with a line break at the end ?>-->
 

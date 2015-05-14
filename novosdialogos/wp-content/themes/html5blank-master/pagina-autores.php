@@ -27,7 +27,7 @@ footer {
 	<main role="main">
 		<!-- section -->
 		<section>
-			
+<div class="wrapper">			
 		<section class="home-posts sobre-page">
 
 			<h1><?php the_title(); ?></h1>
@@ -62,11 +62,12 @@ footer {
 		
 		
 		</section>
-
+		
+<?php get_sidebar(); ?>
+</div><!-- wrapper -->
 		</section>
 		<!-- /section -->
 	</main>
 
-<?php get_sidebar(); ?>
 
 <?php get_footer(); ?>

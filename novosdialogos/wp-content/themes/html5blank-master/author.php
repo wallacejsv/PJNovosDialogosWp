@@ -10,6 +10,7 @@ footer {
 
 	<main role="main">
 		<!-- section -->
+<div class="wrapper">
 		<section class="home-posts sobre-page">
 
 	<div class="sobre-author-busca">
@@ -85,8 +86,10 @@ footer {
 
 		</section>
 		<!-- /section -->
+	<?php get_sidebar(); ?>
+</div> <!-- //wrapper -->
 	</main>
 
-<?php get_sidebar(); ?>
+
 
 <?php get_footer(); ?>

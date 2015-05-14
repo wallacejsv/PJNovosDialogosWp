@@ -2,6 +2,8 @@
 
 	<main role="main">
 		<!-- section -->
+
+	<div class="wrapper">
 		<section class="home-posts sobre-page">
 
 			<!-- article -->
@@ -17,6 +19,7 @@
 
 		</section>
 		<!-- /section -->
+	</div>
 	</main>
 
 <?php // get_sidebar(); ?>

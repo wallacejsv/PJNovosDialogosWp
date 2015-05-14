@@ -1,5 +1,4 @@
-</div>
-		<!-- /wrapper -->			
+	
 
 
 			<!-- footer -->

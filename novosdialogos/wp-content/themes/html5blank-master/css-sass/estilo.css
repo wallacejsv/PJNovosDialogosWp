@@ -8,8 +8,13 @@ header {
     padding-right: 12px;
     box-sizing: border-box; }
     header .centro-header .redes-sociais {
-      float: right;
-      width: 190px; }
+      float: none;
+      width: 100%;
+      margin-top: 10px;
+      margin: 0 auto; }
+      header .centro-header .redes-sociais .c-redes {
+        width: 188px;
+        margin-left: auto; }
       header .centro-header .redes-sociais ul {
         list-style: none; }
       header .centro-header .redes-sociais .fa {
@@ -21,25 +26,26 @@ header {
 #welcomeHero {
   float: left;
   max-width: 100%;
-  margin-top: 30px; }
+  margin-top: 30px;
+  width: 100%; }
   #welcomeHero #slideshow-main {
-    width: 703px;
+    width: 70%;
     max-width: 100%;
     float: left;
     margin-right: 0; }
     #welcomeHero #slideshow-main ul {
       margin: 0;
       padding: 0;
-      width: 703px;
+      width: 100%;
       max-width: 100%; }
     #welcomeHero #slideshow-main li {
-      width: 703px;
+      width: 100%;
       max-width: 100%;
       height: 357px;
       display: none;
       position: relative; }
       #welcomeHero #slideshow-main li img {
-        width: 703px;
+        width: 100%;
         max-width: 100%; }
       #welcomeHero #slideshow-main li.active {
         display: block; }
@@ -85,7 +91,7 @@ header {
 
 #slideshow-carousel {
   float: left;
-  width: 297px;
+  width: 30%;
   max-width: 100%;
   position: relative; }
   #slideshow-carousel img {
@@ -153,5 +159,131 @@ header {
             text-transform: uppercase;
             font-size: 10px;
             z-index: 0; }
+
+.fundo-full-articulistas {
+  background-color: #000;
+  float: left;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  padding: 0;
+  margin: 64px 0px 0px 0px; }
+  .fundo-full-articulistas .carousel {
+    height: 90px;
+    width: 1000px;
+    max-width: 100%;
+    float: left;
+    background: #000;
+    margin-top: 0px; }
+
+.authorPostSidebar {
+  margin: -8px 0px 0px 0px;
+  float: left;
+  width: 100%;
+  color: #38A8D9;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 13px; }
+  .authorPostSidebar a {
+    color: #38A8D9; }
+    .authorPostSidebar a:hover {
+      color: #38A8D9; }
+
+.sidebarRight {
+  float: right;
+  width: 300px;
+  max-width: 100%;
+  margin-top: 48px; }
+  .sidebarRight aside.sidebar {
+    float: right;
+    width: 300px;
+    background: #ddd; }
+    .sidebarRight aside.sidebar.videos-sidebar {
+      margin-top: 20px; }
+    .sidebarRight aside.sidebar h3 {
+      padding-bottom: 7px;
+      text-transform: uppercase;
+      color: #000;
+      border-top: 1px solid #fff;
+      border-bottom: 1px solid #fff;
+      padding-top: 8px;
+      text-align: center;
+      margin-top: 10px;
+      margin-left: 10px;
+      margin-right: 10px;
+      font-family: 'Open Sans Condensed', sans-serif;
+      font-size: 18px;
+      font-weight: 700; }
+  .sidebarRight aside .videosSidebar {
+    padding: 18px; }
+  .sidebarRight aside.sidebarTags {
+    margin-top: 20px; }
+    .sidebarRight aside.sidebarTags .tagsContet {
+      width: 100%;
+      float: left;
+      padding-left: 10px;
+      padding-right: 10px;
+      margin-bottom: 15px; }
+      .sidebarRight aside.sidebarTags .tagsContet ul {
+        padding: 0;
+        margin: 0; }
+        .sidebarRight aside.sidebarTags .tagsContet ul li {
+          list-style: none; }
+          .sidebarRight aside.sidebarTags .tagsContet ul li a {
+            border: 1px solid #989898;
+            padding: 0px 7px;
+            color: #000;
+            float: left;
+            margin-bottom: 6px;
+            margin-right: 7px;
+            font-family: 'Open Sans', sans-serif;
+            font-size: 16px !important; }
+
+.artigos .img2 {
+  width: 100%; }
+  .artigos .img2 img {
+    width: 100%; }
+
+.controleFonte {
+  width: 100%;
+  max-width: 100%;
+  margin-top: 3px;
+  margin-bottom: 10px; }
+
+/* RESPONSIVO */
+@media only screen and (max-width: 1041px) {
+  /* topo */
+  #welcomeHero #slideshow-main {
+    width: 100%; }
+    #welcomeHero #slideshow-main li span.opacity {
+      display: none; }
+
+  .navbar-default .navbar-collapse {
+    border-color: none;
+    margin-top: 32px;
+    max-width: 100%; }
+
+  #slideshow-carousel ul li a {
+    width: 100%; }
+
+  header .centro-header .logo {
+    float: none;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 50px; }
+  header .centro-header .redes-sociais .c-redes {
+    width: 221px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 22px; }
+  header .centro-header .navbar-nav {
+    float: none;
+    margin: 0 auto;
+    text-align: center;
+    width: 506px;
+    max-width: 100%; }
+
+  /* vozes */
+  .abh_tab_content .abh_text {
+    margin-left: 0 !important; } }
 
 /*# sourceMappingURL=estilo.css.map */

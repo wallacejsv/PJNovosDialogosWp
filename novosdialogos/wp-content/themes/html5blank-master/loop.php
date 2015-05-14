@@ -11,6 +11,7 @@ footer {
 
 <main role="main">
 		<!-- section -->
+<div class="wrapper">
 		<section class="home-posts sobre-page">
 
 <?php if (have_posts()): while (have_posts()) : the_post(); ?>
@@ -59,4 +60,5 @@ footer {
 
 		</section>
 		<!-- /section -->
+	</div>
 </main>

@@ -57,7 +57,7 @@
 
 <?php
 	$args = array(
-		'category_name'=>'alexandre-alex, edu-andre, josa-andrade, aloha',
+		'category_name'=>'post',
 		'numberposts'=>1,
 		'offset'=>0
 		);
@@ -106,7 +106,7 @@
 
 <?php
 	$args = array(
-		'category_name'=>'alexandre-alex, edu-andre, josa-andrade, aloha',
+		'category_name'=>'post',
 		'numberposts'=>1,
 		'offset'=>1
 		);
@@ -156,7 +156,7 @@
 
 <?php
 	$args = array(
-		'category_name'=>'alexandre-alex, edu-andre, josa-andrade, aloha',
+		'category_name'=>'post',
 		'numberposts'=>1,
 		'offset'=>2
 		);
@@ -209,7 +209,7 @@
 
 <?php
 	$args = array(
-		'category_name'=>'alexandre-alex, edu-andre, josa-andrade, aloha',
+		'category_name'=>'post',
 		'numberposts'=>1,
 		'offset'=>0
 		);
@@ -246,7 +246,7 @@
 
 <?php
 	$args = array(
-		'category_name'=>'alexandre-alex, edu-andre, josa-andrade, aloha',
+		'category_name'=>'post',
 		'numberposts'=>1,
 		'offset'=>1
 		);
@@ -284,7 +284,7 @@
 
 <?php
 	$args = array(
-		'category_name'=>'alexandre-alex, edu-andre, josa-andrade, aloha',
+		'category_name'=>'post',
 		'numberposts'=>1,
 		'offset'=>2
 		);
@@ -321,9 +321,14 @@
 		<!-- /section -->
 
 
+
+
 <div class="articulista-texto">
 	<h3>articulistas</h3>
 </div>
+
+<div class="fundo-full-articulistas">
+<div class="wrapper">
 
 <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
   <!-- Indicators -->
@@ -337,9 +342,9 @@
 		<div class="secao-autor">
 			
 			<div class="author-bio-box2"><?php echo do_shortcode('[starbox  id="1"]'); ?></div>
-			<div class="author-bio-box2"><?php echo do_shortcode('[starbox  id="2"]'); ?></div>
-			<div class="author-bio-box2"><?php echo do_shortcode('[starbox  id="3"]'); ?></div>
-			<div class="author-bio-box2"><?php echo do_shortcode('[starbox  id="4"]'); ?></div>	
+			<div class="author-bio-box2"><?php echo do_shortcode('[starbox  id="7"]'); ?></div>
+			<div class="author-bio-box2"><?php echo do_shortcode('[starbox  id="8"]'); ?></div>
+			<div class="author-bio-box2"><?php echo do_shortcode('[starbox  id="9"]'); ?></div>	
 			
 		</div> <!-- //secao-autor -->
 
@@ -354,10 +359,10 @@
      
 		<div class="secao-autor">
 			
-			<div class="author-bio-box2"><?php echo do_shortcode('[starbox  id="5"]'); ?></div>
-			<div class="author-bio-box2"><?php echo do_shortcode('[starbox  id="6"]'); ?></div>
-			<div class="author-bio-box2"><?php echo do_shortcode('[starbox  id="7"]'); ?></div>
-			<div class="author-bio-box2"><?php echo do_shortcode('[starbox  id="8"]'); ?></div>
+			<div class="author-bio-box2"><?php echo do_shortcode('[starbox  id="10"]'); ?></div>
+			<div class="author-bio-box2"><?php echo do_shortcode('[starbox  id="11"]'); ?></div>
+			<div class="author-bio-box2"><?php echo do_shortcode('[starbox  id="12"]'); ?></div>
+			<div class="author-bio-box2"><?php echo do_shortcode('[starbox  id="13"]'); ?></div>
 			
 		</div> <!-- //secao-autor -->
 
@@ -368,22 +373,333 @@
     
     
     
-       <!-- <div class="item">
+        <div class="item">
      
 		<div class="secao-autor">
 			
-			<div class="author-bio-box2"><?php echo do_shortcode('[starbox  id="9"]'); ?></div>
-			<div class="author-bio-box2"><?php echo do_shortcode('[starbox  id="10"]'); ?></div>
-			<div class="author-bio-box2"><?php echo do_shortcode('[starbox  id="11"]'); ?></div>
-			<div class="author-bio-box2"><?php echo do_shortcode('[starbox  id="12"]'); ?></div>
+			<div class="author-bio-box2"><?php echo do_shortcode('[starbox  id="14"]'); ?></div>
+			<div class="author-bio-box2"><?php echo do_shortcode('[starbox  id="15"]'); ?></div>
+			<div class="author-bio-box2"><?php echo do_shortcode('[starbox  id="16"]'); ?></div>
+			<div class="author-bio-box2"><?php echo do_shortcode('[starbox  id="17"]'); ?></div>
 			
 		</div> 
 
       <div class="carousel-caption">
         ...
       </div>
-    </div> -->
+    </div> 
+
+
+    <div class="item">
+     
+		<div class="secao-autor">
+			
+			<div class="author-bio-box2"><?php echo do_shortcode('[starbox  id="18"]'); ?></div>
+			<div class="author-bio-box2"><?php echo do_shortcode('[starbox  id="19"]'); ?></div>
+			<div class="author-bio-box2"><?php echo do_shortcode('[starbox  id="20"]'); ?></div>
+			<div class="author-bio-box2"><?php echo do_shortcode('[starbox  id="21"]'); ?></div>
+			
+		</div> 
+
+      <div class="carousel-caption">
+        ...
+      </div>
+    </div> 
+
+
+    <div class="item">
+     
+		<div class="secao-autor">
+			
+			<div class="author-bio-box2"><?php echo do_shortcode('[starbox  id="22"]'); ?></div>
+			<div class="author-bio-box2"><?php echo do_shortcode('[starbox  id="23"]'); ?></div>
+			<div class="author-bio-box2"><?php echo do_shortcode('[starbox  id="24"]'); ?></div>
+			<div class="author-bio-box2"><?php echo do_shortcode('[starbox  id="25"]'); ?></div>
+			
+		</div> 
+
+      <div class="carousel-caption">
+        ...
+      </div>
+    </div> 
+
+
+    <div class="item">
+     
+		<div class="secao-autor">
+			
+			<div class="author-bio-box2"><?php echo do_shortcode('[starbox  id="26"]'); ?></div>
+			<div class="author-bio-box2"><?php echo do_shortcode('[starbox  id="27"]'); ?></div>
+			<div class="author-bio-box2"><?php echo do_shortcode('[starbox  id="28"]'); ?></div>
+			<div class="author-bio-box2"><?php echo do_shortcode('[starbox  id="29"]'); ?></div>
+			
+		</div> 
+
+      <div class="carousel-caption">
+        ...
+      </div>
+    </div> 
+
+
+    <div class="item">
+     
+		<div class="secao-autor">
+			
+			<div class="author-bio-box2"><?php echo do_shortcode('[starbox  id="30"]'); ?></div>
+			<div class="author-bio-box2"><?php echo do_shortcode('[starbox  id="31"]'); ?></div>
+			<div class="author-bio-box2"><?php echo do_shortcode('[starbox  id="32"]'); ?></div>
+			<div class="author-bio-box2"><?php echo do_shortcode('[starbox  id="33"]'); ?></div>
+			
+		</div> 
+
+      <div class="carousel-caption">
+        ...
+      </div>
+    </div> 
     
+
+    <div class="item">
+     
+		<div class="secao-autor">
+			
+			<div class="author-bio-box2"><?php echo do_shortcode('[starbox  id="34"]'); ?></div>
+			<div class="author-bio-box2"><?php echo do_shortcode('[starbox  id="35"]'); ?></div>
+			<div class="author-bio-box2"><?php echo do_shortcode('[starbox  id="36"]'); ?></div>
+			<div class="author-bio-box2"><?php echo do_shortcode('[starbox  id="37"]'); ?></div>
+			
+		</div> 
+
+      <div class="carousel-caption">
+        ...
+      </div>
+    </div> 
+
+
+    <div class="item">
+     
+		<div class="secao-autor">
+			
+			<div class="author-bio-box2"><?php echo do_shortcode('[starbox  id="38"]'); ?></div>
+			<div class="author-bio-box2"><?php echo do_shortcode('[starbox  id="39"]'); ?></div>
+			<div class="author-bio-box2"><?php echo do_shortcode('[starbox  id="40"]'); ?></div>
+			<div class="author-bio-box2"><?php echo do_shortcode('[starbox  id="41"]'); ?></div>
+			
+		</div> 
+
+      <div class="carousel-caption">
+        ...
+      </div>
+    </div> 
+
+
+    <div class="item">
+     
+		<div class="secao-autor">
+			
+			<div class="author-bio-box2"><?php echo do_shortcode('[starbox  id="42"]'); ?></div>
+			<div class="author-bio-box2"><?php echo do_shortcode('[starbox  id="43"]'); ?></div>
+			<div class="author-bio-box2"><?php echo do_shortcode('[starbox  id="44"]'); ?></div>
+			<div class="author-bio-box2"><?php echo do_shortcode('[starbox  id="45"]'); ?></div>
+			
+		</div> 
+
+      <div class="carousel-caption">
+        ...
+      </div>
+    </div> 
+
+
+    <div class="item">
+     
+		<div class="secao-autor">
+			
+			<div class="author-bio-box2"><?php echo do_shortcode('[starbox  id="46"]'); ?></div>
+			<div class="author-bio-box2"><?php echo do_shortcode('[starbox  id="47"]'); ?></div>
+			<div class="author-bio-box2"><?php echo do_shortcode('[starbox  id="48"]'); ?></div>
+			<div class="author-bio-box2"><?php echo do_shortcode('[starbox  id="49"]'); ?></div>
+			
+		</div> 
+
+      <div class="carousel-caption">
+        ...
+      </div>
+    </div> 
+
+
+
+    <div class="item">
+     
+		<div class="secao-autor">
+			
+			<div class="author-bio-box2"><?php echo do_shortcode('[starbox  id="50"]'); ?></div>
+			<div class="author-bio-box2"><?php echo do_shortcode('[starbox  id="51"]'); ?></div>
+			<div class="author-bio-box2"><?php echo do_shortcode('[starbox  id="51"]'); ?></div>
+			<div class="author-bio-box2"><?php echo do_shortcode('[starbox  id="53"]'); ?></div>
+			
+		</div> 
+
+      <div class="carousel-caption">
+        ...
+      </div>
+    </div> 
+
+
+    <div class="item">
+     
+		<div class="secao-autor">
+			
+			<div class="author-bio-box2"><?php echo do_shortcode('[starbox  id="54"]'); ?></div>
+			<div class="author-bio-box2"><?php echo do_shortcode('[starbox  id="55"]'); ?></div>
+			<div class="author-bio-box2"><?php echo do_shortcode('[starbox  id="56"]'); ?></div>
+			<div class="author-bio-box2"><?php echo do_shortcode('[starbox  id="57"]'); ?></div>
+			
+		</div> 
+
+      <div class="carousel-caption">
+        ...
+      </div>
+    </div>
+
+
+    <div class="item">
+     
+		<div class="secao-autor">
+			
+			<div class="author-bio-box2"><?php echo do_shortcode('[starbox  id="58"]'); ?></div>
+			<div class="author-bio-box2"><?php echo do_shortcode('[starbox  id="59"]'); ?></div>
+			<div class="author-bio-box2"><?php echo do_shortcode('[starbox  id="60"]'); ?></div>
+			<div class="author-bio-box2"><?php echo do_shortcode('[starbox  id="61"]'); ?></div>
+			
+		</div> 
+
+      <div class="carousel-caption">
+        ...
+      </div>
+    </div>
+
+
+    <div class="item">
+     
+		<div class="secao-autor">
+			
+			<div class="author-bio-box2"><?php echo do_shortcode('[starbox  id="62"]'); ?></div>
+			<div class="author-bio-box2"><?php echo do_shortcode('[starbox  id="63"]'); ?></div>
+			<div class="author-bio-box2"><?php echo do_shortcode('[starbox  id="64"]'); ?></div>
+			<div class="author-bio-box2"><?php echo do_shortcode('[starbox  id="65"]'); ?></div>
+			
+		</div> 
+
+      <div class="carousel-caption">
+        ...
+      </div>
+    </div>
+
+
+    <div class="item">
+     
+		<div class="secao-autor">
+			
+			<div class="author-bio-box2"><?php echo do_shortcode('[starbox  id="66"]'); ?></div>
+			<div class="author-bio-box2"><?php echo do_shortcode('[starbox  id="67"]'); ?></div>
+			<div class="author-bio-box2"><?php echo do_shortcode('[starbox  id="68"]'); ?></div>
+			<div class="author-bio-box2"><?php echo do_shortcode('[starbox  id="69"]'); ?></div>
+			
+		</div> 
+
+      <div class="carousel-caption">
+        ...
+      </div>
+    </div>
+
+
+    <div class="item">
+     
+		<div class="secao-autor">
+			
+			<div class="author-bio-box2"><?php echo do_shortcode('[starbox  id="70"]'); ?></div>
+			<div class="author-bio-box2"><?php echo do_shortcode('[starbox  id="71"]'); ?></div>
+			<div class="author-bio-box2"><?php echo do_shortcode('[starbox  id="72"]'); ?></div>
+			<div class="author-bio-box2"><?php echo do_shortcode('[starbox  id="73"]'); ?></div>
+			
+		</div> 
+
+      <div class="carousel-caption">
+        ...
+      </div>
+    </div>
+
+
+    <div class="item">
+     
+		<div class="secao-autor">
+			
+			<div class="author-bio-box2"><?php echo do_shortcode('[starbox  id="74"]'); ?></div>
+			<div class="author-bio-box2"><?php echo do_shortcode('[starbox  id="75"]'); ?></div>
+			<div class="author-bio-box2"><?php echo do_shortcode('[starbox  id="76"]'); ?></div>
+			<div class="author-bio-box2"><?php echo do_shortcode('[starbox  id="77"]'); ?></div>
+			
+		</div> 
+
+      <div class="carousel-caption">
+        ...
+      </div>
+    </div>
+
+
+    <div class="item">
+     
+		<div class="secao-autor">
+			
+			<div class="author-bio-box2"><?php echo do_shortcode('[starbox  id="78"]'); ?></div>
+			<div class="author-bio-box2"><?php echo do_shortcode('[starbox  id="79"]'); ?></div>
+			<div class="author-bio-box2"><?php echo do_shortcode('[starbox  id="80"]'); ?></div>
+			<div class="author-bio-box2"><?php echo do_shortcode('[starbox  id="81"]'); ?></div>
+			
+		</div> 
+
+      <div class="carousel-caption">
+        ...
+      </div>
+    </div>
+
+
+
+    <div class="item">
+     
+		<div class="secao-autor">
+			
+			<div class="author-bio-box2"><?php echo do_shortcode('[starbox  id="82"]'); ?></div>
+			<div class="author-bio-box2"><?php echo do_shortcode('[starbox  id="83"]'); ?></div>
+			<div class="author-bio-box2"><?php echo do_shortcode('[starbox  id="84"]'); ?></div>
+			<div class="author-bio-box2"><?php echo do_shortcode('[starbox  id="85"]'); ?></div>
+			
+		</div> 
+
+      <div class="carousel-caption">
+        ...
+      </div>
+    </div>
+
+
+
+    <div class="item">
+     
+		<div class="secao-autor">
+			
+			<div class="author-bio-box2"><?php echo do_shortcode('[starbox  id="86"]'); ?></div>
+			<div class="author-bio-box2"><?php echo do_shortcode('[starbox  id="87"]'); ?></div>
+			<div class="author-bio-box2"><?php echo do_shortcode('[starbox  id="88"]'); ?></div>
+			<div class="author-bio-box2"><?php echo do_shortcode('[starbox  id="89"]'); ?></div>
+			
+		</div> 
+
+      <div class="carousel-caption">
+        ...
+      </div>
+    </div>
+
+
+
     
 
   </div>
@@ -399,109 +715,28 @@
   </a>
 </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!-- -------------------------------------------------------------- HOME QUERY SEM MODAL DESATIVADO --------------------------------------------------------------- -->
-
-<!--<section class="home-posts">-->
-
-<!-- QUETY POST 
-
-		<div class="querypost-posts-home" id="examplePopup1">
-
-<?php
-	$args = array(
-		'category_name'=>'alexandre-alex, edu-andre, josa-andrade, aloha',
-		'numberposts'=>1,
-		'offset'=>0
-		);
- 
-	$my_posts = get_posts($args);
- 
-	if( $my_posts ):
-	foreach( $my_posts as $post ) :	setup_postdata($post); ?>
-
-
-<?php if ( has_post_thumbnail()) : ?>
-   
-   <div class="img2"><a href="<?php the_permalink(); ?> "><?php the_post_thumbnail(array(870,420)); ?></a></div>
-   
- <?php endif; ?>
-	
-	<div class="titulo-query-home"><p><a href="<?php the_permalink(); ?>"><?php  title_lenght(40) ?></a></p></div>
-
-	  <div class="resumo-query-home"><p><?php wp_limit_post(100,'...',true);?></p></div>
-	<?php 
-	endforeach; 
-	else:
-	?>
-	<p></p>
-    <?php endif; ?>
-
 </div>
-
- #END QUETY POST -->
-
-
-
-<!-- QUETY POST 
-		<div class="querypost-posts-home">
-
-<?php
-	$args = array(
-		'category_name'=>'alexandre-alex, edu-andre, josa-andrade, aloha',
-		'numberposts'=>1,
-		'offset'=>1
-		);
- 
-	$my_posts = get_posts($args);
- 
-	if( $my_posts ):
-	foreach( $my_posts as $post ) :	setup_postdata($post); ?>
-
-
-<?php if ( has_post_thumbnail()) : ?>
-   
-   <div class="img2"><a href="<?php the_permalink(); ?> "><?php the_post_thumbnail(array(870,420)); ?></a></div>
-   
- <?php endif; ?>
-	
-	<div class="titulo-query-home"><p><a href="<?php the_permalink(); ?>"><?php  title_lenght(40) ?></a></p></div>
-
-	  <div class="resumo-query-home"><p><?php wp_limit_post(100,'...',true);?></p></div>
-	<?php 
-	endforeach; 
-	else:
-	?>
-	<p></p>
-    <?php endif; ?>
-
-</div>
-
- #END QUETY POST -->
-
-<!--</section>--> <!--// home-query -->
-
-
-<!-- -------------------------------------------------------------- //HOME QUERY SEM MODAL DESATIVADO --------------------------------------------------------------- -->
+    <!-- /wrapper --> 
+</div> <!-- fundo articulistas -->
 
 
 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="wrapper">
 
 <section class="home-posts">
 
@@ -521,7 +756,7 @@
 
 <?php
 	$args = array(
-		'category_name'=>'alexandre-alex, edu-andre, josa-andrade, aloha',
+		'category_name'=>'post',
 		'numberposts'=>1,
 		'offset'=>0
 		);
@@ -561,7 +796,7 @@
 
 <?php
 	$args = array(
-		'category_name'=>'alexandre-alex, edu-andre, josa-andrade, aloha',
+		'category_name'=>'post',
 		'numberposts'=>1,
 		'offset'=>1
 		);
@@ -601,7 +836,7 @@
 
 <?php
 	$args = array(
-		'category_name'=>'alexandre-alex, edu-andre, josa-andrade, aloha',
+		'category_name'=>'post',
 		'numberposts'=>1,
 		'offset'=>2
 		);
@@ -642,7 +877,7 @@
 
 <?php
 	$args = array(
-		'category_name'=>'alexandre-alex, edu-andre, josa-andrade, aloha',
+		'category_name'=>'post',
 		'numberposts'=>1,
 		'offset'=>3
 		);
@@ -683,7 +918,7 @@
 
 <?php
 	$args = array(
-		'category_name'=>'alexandre-alex, edu-andre, josa-andrade, aloha',
+		'category_name'=>'post',
 		'numberposts'=>1,
 		'offset'=>4
 		);
@@ -723,7 +958,7 @@
 
 <?php
 	$args = array(
-		'category_name'=>'alexandre-alex, edu-andre, josa-andrade, aloha',
+		'category_name'=>'post',
 		'numberposts'=>1,
 		'offset'=>5
 		);
@@ -758,19 +993,17 @@
 <!-- //QUETY POST DA HOME - SEM TER CLICADO NO QUERY -->
 
 
-
-
-
 </div> <!--//item-->
 
-   <div id="loadmoreajaxloader" style="display:none;">
+
+   <div id="loadmoreajaxloader" style="display:none;"> <!----------- DISPLAAAAAAAAAAAAY - SO ABRE QUANDO DESCE --> 
 
 <!-- QUETY POST DA HOME - SEM TER CLICADO NO QUERY -->
 <div class="querypost-posts-home box" id="content">
 
 <?php
 	$args = array(
-		'category_name'=>'alexandre-alex, edu-andre, josa-andrade, aloha',
+		'category_name'=>'post',
 		'numberposts'=>1,
 		'offset'=>6
 		);
@@ -810,7 +1043,7 @@
 
 <?php
 	$args = array(
-		'category_name'=>'alexandre-alex, edu-andre, josa-andrade, aloha',
+		'category_name'=>'post',
 		'numberposts'=>1,
 		'offset'=>7
 		);
@@ -844,9 +1077,497 @@
 
 <!-- //QUETY POST DA HOME - SEM TER CLICADO NO QUERY -->
 
-</div> <!--//load-->
-<div class="loader-imagem"><center><img class="loader-imagem" src="http://localhost/PJNovosDialogosWp/novosdialogos/wp-content/uploads/2015/04/loading-1.gif"/></center></div>
+
+<!-- QUETY POST DA HOME - SEM TER CLICADO NO QUERY -->
+<div class="querypost-posts-home box" id="content">
+
+<?php
+	$args = array(
+		'category_name'=>'post',
+		'numberposts'=>1,
+		'offset'=>8
+		);
+ 
+	$my_posts = get_posts($args);
+ 
+	if( $my_posts ):
+	foreach( $my_posts as $post ) :	setup_postdata($post); ?>
+
+
+<?php if ( has_post_thumbnail()) : ?>
+   
+   <div class="img2"><a href="<?php the_permalink(); ?>" onclick="history.pushState('teste','Titulo de teste','<?php the_permalink(); ?>'); return false;" type="button" data-toggle="modal" data-target="#myModal"><?php the_post_thumbnail(array(870,420)); ?></a></div>
+   
+ <?php endif; ?>
+	
+	<div class="titulo-query-home"><p><a href="<?php the_permalink(); ?>" onclick="history.pushState('teste','Titulo de teste','<?php the_permalink(); ?>'); return false;" type="button" data-toggle="modal" data-target="#myModal"><?php  title_lenght(80) ?></a></p></div>
+
+	  <div class="resumo-query-home"><p><?php wp_limit_post(100,'...',true);?></p></div>
+	 <span class="author"><?php _e( 'por', 'html5blank' ); ?> <?php the_author_posts_link(); ?></span>
+
+	<a class="share" href="#"><i class="fa fa-share-alt"></i></a>
+
+	<?php 
+	endforeach; 
+	else:
+	?>
+	<p></p>
+    <?php endif; ?>
 </div>
+
+<!-- //QUETY POST DA HOME - SEM TER CLICADO NO QUERY -->
+
+
+<!-- QUETY POST DA HOME - SEM TER CLICADO NO QUERY -->
+<div class="querypost-posts-home box" id="content">
+
+<?php
+	$args = array(
+		'category_name'=>'post',
+		'numberposts'=>1,
+		'offset'=>9
+		);
+ 
+	$my_posts = get_posts($args);
+ 
+	if( $my_posts ):
+	foreach( $my_posts as $post ) :	setup_postdata($post); ?>
+
+
+<?php if ( has_post_thumbnail()) : ?>
+   
+   <div class="img2"><a href="<?php the_permalink(); ?>" onclick="history.pushState('teste','Titulo de teste','<?php the_permalink(); ?>'); return false;" type="button" data-toggle="modal" data-target="#myModal"><?php the_post_thumbnail(array(870,420)); ?></a></div>
+   
+ <?php endif; ?>
+	
+	<div class="titulo-query-home"><p><a href="<?php the_permalink(); ?>" onclick="history.pushState('teste','Titulo de teste','<?php the_permalink(); ?>'); return false;" type="button" data-toggle="modal" data-target="#myModal"><?php  title_lenght(80) ?></a></p></div>
+
+	  <div class="resumo-query-home"><p><?php wp_limit_post(100,'...',true);?></p></div>
+	 <span class="author"><?php _e( 'por', 'html5blank' ); ?> <?php the_author_posts_link(); ?></span>
+
+	<a class="share" href="#"><i class="fa fa-share-alt"></i></a>
+
+	<?php 
+	endforeach; 
+	else:
+	?>
+	<p></p>
+    <?php endif; ?>
+</div>
+
+<!-- //QUETY POST DA HOME - SEM TER CLICADO NO QUERY -->
+
+<!-- QUETY POST DA HOME - SEM TER CLICADO NO QUERY -->
+<div class="querypost-posts-home box" id="content">
+
+<?php
+	$args = array(
+		'category_name'=>'post',
+		'numberposts'=>1,
+		'offset'=>10
+		);
+ 
+	$my_posts = get_posts($args);
+ 
+	if( $my_posts ):
+	foreach( $my_posts as $post ) :	setup_postdata($post); ?>
+
+
+<?php if ( has_post_thumbnail()) : ?>
+   
+   <div class="img2"><a href="<?php the_permalink(); ?>" onclick="history.pushState('teste','Titulo de teste','<?php the_permalink(); ?>'); return false;" type="button" data-toggle="modal" data-target="#myModal"><?php the_post_thumbnail(array(870,420)); ?></a></div>
+   
+ <?php endif; ?>
+	
+	<div class="titulo-query-home"><p><a href="<?php the_permalink(); ?>" onclick="history.pushState('teste','Titulo de teste','<?php the_permalink(); ?>'); return false;" type="button" data-toggle="modal" data-target="#myModal"><?php  title_lenght(80) ?></a></p></div>
+
+	  <div class="resumo-query-home"><p><?php wp_limit_post(100,'...',true);?></p></div>
+	 <span class="author"><?php _e( 'por', 'html5blank' ); ?> <?php the_author_posts_link(); ?></span>
+
+	<a class="share" href="#"><i class="fa fa-share-alt"></i></a>
+
+	<?php 
+	endforeach; 
+	else:
+	?>
+	<p></p>
+    <?php endif; ?>
+</div>
+
+<!-- //QUETY POST DA HOME - SEM TER CLICADO NO QUERY -->
+
+
+<!-- QUETY POST DA HOME - SEM TER CLICADO NO QUERY -->
+<div class="querypost-posts-home box" id="content">
+
+<?php
+	$args = array(
+		'category_name'=>'post',
+		'numberposts'=>1,
+		'offset'=>11
+		);
+ 
+	$my_posts = get_posts($args);
+ 
+	if( $my_posts ):
+	foreach( $my_posts as $post ) :	setup_postdata($post); ?>
+
+
+<?php if ( has_post_thumbnail()) : ?>
+   
+   <div class="img2"><a href="<?php the_permalink(); ?>" onclick="history.pushState('teste','Titulo de teste','<?php the_permalink(); ?>'); return false;" type="button" data-toggle="modal" data-target="#myModal"><?php the_post_thumbnail(array(870,420)); ?></a></div>
+   
+ <?php endif; ?>
+	
+	<div class="titulo-query-home"><p><a href="<?php the_permalink(); ?>" onclick="history.pushState('teste','Titulo de teste','<?php the_permalink(); ?>'); return false;" type="button" data-toggle="modal" data-target="#myModal"><?php  title_lenght(80) ?></a></p></div>
+
+	  <div class="resumo-query-home"><p><?php wp_limit_post(100,'...',true);?></p></div>
+	 <span class="author"><?php _e( 'por', 'html5blank' ); ?> <?php the_author_posts_link(); ?></span>
+
+	<a class="share" href="#"><i class="fa fa-share-alt"></i></a>
+
+	<?php 
+	endforeach; 
+	else:
+	?>
+	<p></p>
+    <?php endif; ?>
+</div>
+
+<!-- //QUETY POST DA HOME - SEM TER CLICADO NO QUERY -->
+
+
+<!-- QUETY POST DA HOME - SEM TER CLICADO NO QUERY -->
+<div class="querypost-posts-home box" id="content">
+
+<?php
+	$args = array(
+		'category_name'=>'post',
+		'numberposts'=>1,
+		'offset'=>12
+		);
+ 
+	$my_posts = get_posts($args);
+ 
+	if( $my_posts ):
+	foreach( $my_posts as $post ) :	setup_postdata($post); ?>
+
+
+<?php if ( has_post_thumbnail()) : ?>
+   
+   <div class="img2"><a href="<?php the_permalink(); ?>" onclick="history.pushState('teste','Titulo de teste','<?php the_permalink(); ?>'); return false;" type="button" data-toggle="modal" data-target="#myModal"><?php the_post_thumbnail(array(870,420)); ?></a></div>
+   
+ <?php endif; ?>
+	
+	<div class="titulo-query-home"><p><a href="<?php the_permalink(); ?>" onclick="history.pushState('teste','Titulo de teste','<?php the_permalink(); ?>'); return false;" type="button" data-toggle="modal" data-target="#myModal"><?php  title_lenght(80) ?></a></p></div>
+
+	  <div class="resumo-query-home"><p><?php wp_limit_post(100,'...',true);?></p></div>
+	 <span class="author"><?php _e( 'por', 'html5blank' ); ?> <?php the_author_posts_link(); ?></span>
+
+	<a class="share" href="#"><i class="fa fa-share-alt"></i></a>
+
+	<?php 
+	endforeach; 
+	else:
+	?>
+	<p></p>
+    <?php endif; ?>
+</div>
+
+<!-- //QUETY POST DA HOME - SEM TER CLICADO NO QUERY -->
+
+
+
+<!-- QUETY POST DA HOME - SEM TER CLICADO NO QUERY -->
+<div class="querypost-posts-home box" id="content">
+
+<?php
+	$args = array(
+		'category_name'=>'post',
+		'numberposts'=>1,
+		'offset'=>13
+		);
+ 
+	$my_posts = get_posts($args);
+ 
+	if( $my_posts ):
+	foreach( $my_posts as $post ) :	setup_postdata($post); ?>
+
+
+<?php if ( has_post_thumbnail()) : ?>
+   
+   <div class="img2"><a href="<?php the_permalink(); ?>" onclick="history.pushState('teste','Titulo de teste','<?php the_permalink(); ?>'); return false;" type="button" data-toggle="modal" data-target="#myModal"><?php the_post_thumbnail(array(870,420)); ?></a></div>
+   
+ <?php endif; ?>
+	
+	<div class="titulo-query-home"><p><a href="<?php the_permalink(); ?>" onclick="history.pushState('teste','Titulo de teste','<?php the_permalink(); ?>'); return false;" type="button" data-toggle="modal" data-target="#myModal"><?php  title_lenght(80) ?></a></p></div>
+
+	  <div class="resumo-query-home"><p><?php wp_limit_post(100,'...',true);?></p></div>
+	 <span class="author"><?php _e( 'por', 'html5blank' ); ?> <?php the_author_posts_link(); ?></span>
+
+	<a class="share" href="#"><i class="fa fa-share-alt"></i></a>
+
+	<?php 
+	endforeach; 
+	else:
+	?>
+	<p></p>
+    <?php endif; ?>
+</div>
+
+<!-- //QUETY POST DA HOME - SEM TER CLICADO NO QUERY -->
+
+
+
+<!-- QUETY POST DA HOME - SEM TER CLICADO NO QUERY -->
+<div class="querypost-posts-home box" id="content">
+
+<?php
+	$args = array(
+		'category_name'=>'post',
+		'numberposts'=>1,
+		'offset'=>14
+		);
+ 
+	$my_posts = get_posts($args);
+ 
+	if( $my_posts ):
+	foreach( $my_posts as $post ) :	setup_postdata($post); ?>
+
+
+<?php if ( has_post_thumbnail()) : ?>
+   
+   <div class="img2"><a href="<?php the_permalink(); ?>" onclick="history.pushState('teste','Titulo de teste','<?php the_permalink(); ?>'); return false;" type="button" data-toggle="modal" data-target="#myModal"><?php the_post_thumbnail(array(870,420)); ?></a></div>
+   
+ <?php endif; ?>
+	
+	<div class="titulo-query-home"><p><a href="<?php the_permalink(); ?>" onclick="history.pushState('teste','Titulo de teste','<?php the_permalink(); ?>'); return false;" type="button" data-toggle="modal" data-target="#myModal"><?php  title_lenght(80) ?></a></p></div>
+
+	  <div class="resumo-query-home"><p><?php wp_limit_post(100,'...',true);?></p></div>
+	 <span class="author"><?php _e( 'por', 'html5blank' ); ?> <?php the_author_posts_link(); ?></span>
+
+	<a class="share" href="#"><i class="fa fa-share-alt"></i></a>
+
+	<?php 
+	endforeach; 
+	else:
+	?>
+	<p></p>
+    <?php endif; ?>
+</div>
+
+<!-- //QUETY POST DA HOME - SEM TER CLICADO NO QUERY -->
+
+
+<!-- QUETY POST DA HOME - SEM TER CLICADO NO QUERY -->
+<div class="querypost-posts-home box" id="content">
+
+<?php
+	$args = array(
+		'category_name'=>'post',
+		'numberposts'=>1,
+		'offset'=>15
+		);
+ 
+	$my_posts = get_posts($args);
+ 
+	if( $my_posts ):
+	foreach( $my_posts as $post ) :	setup_postdata($post); ?>
+
+
+<?php if ( has_post_thumbnail()) : ?>
+   
+   <div class="img2"><a href="<?php the_permalink(); ?>" onclick="history.pushState('teste','Titulo de teste','<?php the_permalink(); ?>'); return false;" type="button" data-toggle="modal" data-target="#myModal"><?php the_post_thumbnail(array(870,420)); ?></a></div>
+   
+ <?php endif; ?>
+	
+	<div class="titulo-query-home"><p><a href="<?php the_permalink(); ?>" onclick="history.pushState('teste','Titulo de teste','<?php the_permalink(); ?>'); return false;" type="button" data-toggle="modal" data-target="#myModal"><?php  title_lenght(80) ?></a></p></div>
+
+	  <div class="resumo-query-home"><p><?php wp_limit_post(100,'...',true);?></p></div>
+	 <span class="author"><?php _e( 'por', 'html5blank' ); ?> <?php the_author_posts_link(); ?></span>
+
+	<a class="share" href="#"><i class="fa fa-share-alt"></i></a>
+
+	<?php 
+	endforeach; 
+	else:
+	?>
+	<p></p>
+    <?php endif; ?>
+</div>
+
+<!-- //QUETY POST DA HOME - SEM TER CLICADO NO QUERY -->
+
+
+<!-- QUETY POST DA HOME - SEM TER CLICADO NO QUERY -->
+<div class="querypost-posts-home box" id="content">
+
+<?php
+	$args = array(
+		'category_name'=>'post',
+		'numberposts'=>1,
+		'offset'=>16
+		);
+ 
+	$my_posts = get_posts($args);
+ 
+	if( $my_posts ):
+	foreach( $my_posts as $post ) :	setup_postdata($post); ?>
+
+
+<?php if ( has_post_thumbnail()) : ?>
+   
+   <div class="img2"><a href="<?php the_permalink(); ?>" onclick="history.pushState('teste','Titulo de teste','<?php the_permalink(); ?>'); return false;" type="button" data-toggle="modal" data-target="#myModal"><?php the_post_thumbnail(array(870,420)); ?></a></div>
+   
+ <?php endif; ?>
+	
+	<div class="titulo-query-home"><p><a href="<?php the_permalink(); ?>" onclick="history.pushState('teste','Titulo de teste','<?php the_permalink(); ?>'); return false;" type="button" data-toggle="modal" data-target="#myModal"><?php  title_lenght(80) ?></a></p></div>
+
+	  <div class="resumo-query-home"><p><?php wp_limit_post(100,'...',true);?></p></div>
+	 <span class="author"><?php _e( 'por', 'html5blank' ); ?> <?php the_author_posts_link(); ?></span>
+
+	<a class="share" href="#"><i class="fa fa-share-alt"></i></a>
+
+	<?php 
+	endforeach; 
+	else:
+	?>
+	<p></p>
+    <?php endif; ?>
+</div>
+
+<!-- //QUETY POST DA HOME - SEM TER CLICADO NO QUERY -->
+
+
+<!-- QUETY POST DA HOME - SEM TER CLICADO NO QUERY -->
+<div class="querypost-posts-home box" id="content">
+
+<?php
+	$args = array(
+		'category_name'=>'post',
+		'numberposts'=>1,
+		'offset'=>17
+		);
+ 
+	$my_posts = get_posts($args);
+ 
+	if( $my_posts ):
+	foreach( $my_posts as $post ) :	setup_postdata($post); ?>
+
+
+<?php if ( has_post_thumbnail()) : ?>
+   
+   <div class="img2"><a href="<?php the_permalink(); ?>" onclick="history.pushState('teste','Titulo de teste','<?php the_permalink(); ?>'); return false;" type="button" data-toggle="modal" data-target="#myModal"><?php the_post_thumbnail(array(870,420)); ?></a></div>
+   
+ <?php endif; ?>
+	
+	<div class="titulo-query-home"><p><a href="<?php the_permalink(); ?>" onclick="history.pushState('teste','Titulo de teste','<?php the_permalink(); ?>'); return false;" type="button" data-toggle="modal" data-target="#myModal"><?php  title_lenght(80) ?></a></p></div>
+
+	  <div class="resumo-query-home"><p><?php wp_limit_post(100,'...',true);?></p></div>
+	 <span class="author"><?php _e( 'por', 'html5blank' ); ?> <?php the_author_posts_link(); ?></span>
+
+	<a class="share" href="#"><i class="fa fa-share-alt"></i></a>
+
+	<?php 
+	endforeach; 
+	else:
+	?>
+	<p></p>
+    <?php endif; ?>
+</div>
+
+<!-- //QUETY POST DA HOME - SEM TER CLICADO NO QUERY -->
+
+
+<!-- QUETY POST DA HOME - SEM TER CLICADO NO QUERY -->
+<div class="querypost-posts-home box" id="content">
+
+<?php
+	$args = array(
+		'category_name'=>'post',
+		'numberposts'=>1,
+		'offset'=>18
+		);
+ 
+	$my_posts = get_posts($args);
+ 
+	if( $my_posts ):
+	foreach( $my_posts as $post ) :	setup_postdata($post); ?>
+
+
+<?php if ( has_post_thumbnail()) : ?>
+   
+   <div class="img2"><a href="<?php the_permalink(); ?>" onclick="history.pushState('teste','Titulo de teste','<?php the_permalink(); ?>'); return false;" type="button" data-toggle="modal" data-target="#myModal"><?php the_post_thumbnail(array(870,420)); ?></a></div>
+   
+ <?php endif; ?>
+	
+	<div class="titulo-query-home"><p><a href="<?php the_permalink(); ?>" onclick="history.pushState('teste','Titulo de teste','<?php the_permalink(); ?>'); return false;" type="button" data-toggle="modal" data-target="#myModal"><?php  title_lenght(80) ?></a></p></div>
+
+	  <div class="resumo-query-home"><p><?php wp_limit_post(100,'...',true);?></p></div>
+	 <span class="author"><?php _e( 'por', 'html5blank' ); ?> <?php the_author_posts_link(); ?></span>
+
+	<a class="share" href="#"><i class="fa fa-share-alt"></i></a>
+
+	<?php 
+	endforeach; 
+	else:
+	?>
+	<p></p>
+    <?php endif; ?>
+</div>
+
+<!-- //QUETY POST DA HOME - SEM TER CLICADO NO QUERY -->
+
+
+<!-- QUETY POST DA HOME - SEM TER CLICADO NO QUERY -->
+<div class="querypost-posts-home box" id="content">
+
+<?php
+	$args = array(
+		'category_name'=>'post',
+		'numberposts'=>1,
+		'offset'=>19
+		);
+ 
+	$my_posts = get_posts($args);
+ 
+	if( $my_posts ):
+	foreach( $my_posts as $post ) :	setup_postdata($post); ?>
+
+
+<?php if ( has_post_thumbnail()) : ?>
+   
+   <div class="img2"><a href="<?php the_permalink(); ?>" onclick="history.pushState('teste','Titulo de teste','<?php the_permalink(); ?>'); return false;" type="button" data-toggle="modal" data-target="#myModal"><?php the_post_thumbnail(array(870,420)); ?></a></div>
+   
+ <?php endif; ?>
+	
+	<div class="titulo-query-home"><p><a href="<?php the_permalink(); ?>" onclick="history.pushState('teste','Titulo de teste','<?php the_permalink(); ?>'); return false;" type="button" data-toggle="modal" data-target="#myModal"><?php  title_lenght(80) ?></a></p></div>
+
+	  <div class="resumo-query-home"><p><?php wp_limit_post(100,'...',true);?></p></div>
+	 <span class="author"><?php _e( 'por', 'html5blank' ); ?> <?php the_author_posts_link(); ?></span>
+
+	<a class="share" href="#"><i class="fa fa-share-alt"></i></a>
+
+	<?php 
+	endforeach; 
+	else:
+	?>
+	<p></p>
+    <?php endif; ?>
+</div>
+
+<!-- //QUETY POST DA HOME - SEM TER CLICADO NO QUERY -->
+
+
+</div> <!--//load-->
+
+<div class="loader-imagem"><center><img class="loader-imagem" src="http://localhost/PJNovosDialogosWp/novosdialogos/wp-content/uploads/2015/04/loading-1.gif"/></center>
+</div>
+
+</div>  <!-- //postswrapper -->
+
+
+
 
 
 
@@ -854,11 +1575,14 @@
 
 </section> <!--//home-query-->
 <?php get_sidebar(); ?>
+</div>
+    <!-- /wrapper --> 
+
+
 
 	</main>
 
 
-<!--<a onclick="history.pushState('teste','Titulo de teste','http://localhost/PJNovosDialogosWp/novosdialogos/alex-teste/'); return false;" title="UpInside Tecnologia" id="Ola" href="http://localhost/PJNovosDialogosWp/novosdialogos/alex-teste/" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://localhost/PJNovosDialogosWp/novosdialogos/alex-teste/']);" rel="shadowbox">UpInside</a>-->  
 
 
 <?php  get_footer(); ?>

@@ -19,6 +19,7 @@ footer {
 
 	<main role="main">
 		<!-- section -->
+<div class="wrapper">
 <section class="home-posts">
 
 
@@ -31,6 +32,8 @@ footer {
 
 
 <div id="postswrapper">
+	
+
    <div class="item-dia">
 
 <!-- QUETY POST DA HOME - SEM TER CLICADO NO QUERY -->
@@ -371,8 +374,9 @@ footer {
 
 </section> <!--//home-query-->
 		<!-- /section -->
-	</main>
 
 <?php get_sidebar(); ?>
+</div> <!--warapper-->
+	</main>
 
 <?php get_footer(); ?>

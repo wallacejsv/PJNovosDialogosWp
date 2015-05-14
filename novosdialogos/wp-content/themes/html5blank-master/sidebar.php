@@ -1,5 +1,6 @@
 <!-- sidebar -->
 
+<div class="sidebarRight">
 
 <aside class="sidebar" role="complementary">
 
@@ -16,45 +17,6 @@
 
 </aside>
 
-
-<!-- <aside class="sidebar sidebar-novosdialogos">
-	
-	<h3>podcast novos dialogos</h3>
-	
-<div class="query-sidebar">
-
-<?php
-	$args = array(
-		'category_name'=>'podcast',
-		'numberposts'=>1,
-		'offset'=>0
-		);
- 
-	$my_posts = get_posts($args);
- 
-	if( $my_posts ):
-	foreach( $my_posts as $post ) :	setup_postdata($post); ?>
-
-
-<?php if ( has_post_thumbnail()) : ?>
-   
-   <div class="img2-sibebar"><a href="<?php the_permalink(); ?>" onclick="history.pushState('teste','Titulo de teste','<?php the_permalink(); ?>'); return false;" type="button" data-toggle="modal" data-target="#myModal"><?php the_post_thumbnail(array(870,420)); ?></a></div>
-   
- <?php endif; ?>
-	
-	<div class="titulo-query-home titulo-query-sidebar"><p><a href="<?php the_permalink(); ?>" onclick="history.pushState('teste','Titulo de teste','<?php the_permalink(); ?>'); return false;" type="button" data-toggle="modal" data-target="#myModal"><?php  title_lenght(60) ?></a>...</p></div>
-
-	<?php 
-	endforeach; 
-	else:
-	?>
-	<p></p>
-    <?php endif; ?>
-
-</div> 
-
-	
-</aside> -->
 
 
 <aside class="sidebar sidebar-facebook">
@@ -73,7 +35,7 @@
 
 <?php
 	$args = array(
-		'category_name'=>'alexandre-alex, edu-andre, josa-andrade, aloha',
+		'category_name'=>'post',
 		'numberposts'=>1,
 		'offset'=>0
 		);
@@ -86,11 +48,13 @@
 
 <?php if ( has_post_thumbnail()) : ?>
    
-   <div class="img2-sibebar"><a href="<?php the_permalink(); ?>" onclick="history.pushState('teste','Titulo de teste','<?php the_permalink(); ?>'); return false;" type="button" data-toggle="modal" data-target="#myModal"><?php the_post_thumbnail(array(870,420)); ?></a></div>
+   <!--<div class="img2-sibebar"><a href="<?php the_permalink(); ?>" onclick="history.pushState('teste','Titulo de teste','<?php the_permalink(); ?>'); return false;" type="button" data-toggle="modal" data-target="#myModal"><?php the_post_thumbnail(array(870,420)); ?></a></div>-->
    
  <?php endif; ?>
 	
 	<div class="titulo-query-home titulo-query-sidebar"><p><a href="<?php the_permalink(); ?>" onclick="history.pushState('teste','Titulo de teste','<?php the_permalink(); ?>'); return false;" type="button" data-toggle="modal" data-target="#myModal"><?php  title_lenght(60) ?></a>...</p></div>
+
+	<span class="authorPostSidebar"><?php _e( 'por', 'html5blank' ); ?> <?php the_author_posts_link(); ?></span>
 
 	<?php 
 	endforeach; 
@@ -110,7 +74,7 @@
 
 <?php
 	$args = array(
-		'category_name'=>'alexandre-alex, edu-andre, josa-andrade, aloha',
+		'category_name'=>'post',
 		'numberposts'=>1,
 		'offset'=>1
 		);
@@ -123,11 +87,13 @@
 
 <?php if ( has_post_thumbnail()) : ?>
    
-   <div class="img2-sibebar"><a href="<?php the_permalink(); ?>" onclick="history.pushState('teste','Titulo de teste','<?php the_permalink(); ?>'); return false;" type="button" data-toggle="modal" data-target="#myModal"><?php the_post_thumbnail(array(870,420)); ?></a></div>
+   <!--<div class="img2-sibebar"><a href="<?php the_permalink(); ?>" onclick="history.pushState('teste','Titulo de teste','<?php the_permalink(); ?>'); return false;" type="button" data-toggle="modal" data-target="#myModal"><?php the_post_thumbnail(array(870,420)); ?></a></div>-->
    
  <?php endif; ?>
 	
 	<div class="titulo-query-home titulo-query-sidebar"><p><a href="<?php the_permalink(); ?>" onclick="history.pushState('teste','Titulo de teste','<?php the_permalink(); ?>'); return false;" type="button" data-toggle="modal" data-target="#myModal"><?php  title_lenght(60) ?>...</a></p></div>
+
+	<span class="authorPostSidebar"><?php _e( 'por', 'html5blank' ); ?> <?php the_author_posts_link(); ?></span>
 
 	<?php 
 	endforeach; 
@@ -148,7 +114,7 @@
 
 <?php
 	$args = array(
-		'category_name'=>'alexandre-alex, edu-andre, josa-andrade, aloha',
+		'category_name'=>'post',
 		'numberposts'=>1,
 		'offset'=>2
 		);
@@ -161,11 +127,13 @@
 
 <?php if ( has_post_thumbnail()) : ?>
    
-   <div class="img2-sibebar"><a href="<?php the_permalink(); ?>" onclick="history.pushState('teste','Titulo de teste','<?php the_permalink(); ?>'); return false;" type="button" data-toggle="modal" data-target="#myModal"><?php the_post_thumbnail(array(870,420)); ?></a></div>
+   <!--<div class="img2-sibebar"><a href="<?php the_permalink(); ?>" onclick="history.pushState('teste','Titulo de teste','<?php the_permalink(); ?>'); return false;" type="button" data-toggle="modal" data-target="#myModal"><?php the_post_thumbnail(array(870,420)); ?></a></div>-->
    
  <?php endif; ?>
 	
 	<div class="titulo-query-home titulo-query-sidebar"><p><a href="<?php the_permalink(); ?>" onclick="history.pushState('teste','Titulo de teste','<?php the_permalink(); ?>'); return false;" type="button" data-toggle="modal" data-target="#myModal"><?php  title_lenght(60) ?>...</a></p></div>
+
+	<span class="authorPostSidebar"><?php _e( 'por', 'html5blank' ); ?> <?php the_author_posts_link(); ?></span>
 
 	<?php 
 	endforeach; 
@@ -186,7 +154,7 @@
 
 <?php
 	$args = array(
-		'category_name'=>'alexandre-alex, edu-andre, josa-andrade, aloha',
+		'category_name'=>'post',
 		'numberposts'=>1,
 		'offset'=>3
 		);
@@ -199,11 +167,13 @@
 
 <?php if ( has_post_thumbnail()) : ?>
    
-   <div class="img2-sibebar"><a href="<?php the_permalink(); ?>" onclick="history.pushState('teste','Titulo de teste','<?php the_permalink(); ?>'); return false;" type="button" data-toggle="modal" data-target="#myModal"><?php the_post_thumbnail(array(870,420)); ?></a></div>
+   <!--<div class="img2-sibebar"><a href="<?php the_permalink(); ?>" onclick="history.pushState('teste','Titulo de teste','<?php the_permalink(); ?>'); return false;" type="button" data-toggle="modal" data-target="#myModal"><?php the_post_thumbnail(array(870,420)); ?></a></div>-->
    
  <?php endif; ?>
 	
 	<div class="titulo-query-home titulo-query-sidebar"><p><a href="<?php the_permalink(); ?>" onclick="history.pushState('teste','Titulo de teste','<?php the_permalink(); ?>'); return false;" type="button" data-toggle="modal" data-target="#myModal"><?php  title_lenght(60) ?>...</a></p></div>
+
+	<span class="authorPostSidebar"><?php _e( 'por', 'html5blank' ); ?> <?php the_author_posts_link(); ?></span>
 
 	<?php 
 	endforeach; 
@@ -216,6 +186,62 @@
 <!-- //QUETY POST DA SIDEBAR-->
 
 </aside>
+
+<aside class="sidebar videos-sidebar">
+
+	<h3>Último vídeo</h3>
+
+	<div class="videosSidebar">
+
+		<?php
+			$args = array(
+				'category_name'=>'videos',
+				'numberposts'=>1,
+				'offset'=>0
+				);
+		 
+			$my_posts = get_posts($args);
+		 
+			if( $my_posts ):
+			foreach( $my_posts as $post ) :	setup_postdata($post); ?>
+
+
+			<?php if ( has_post_thumbnail()) : ?>
+			   
+			   <div class="img2"><a href="<?php the_permalink(); ?>" onclick="history.pushState('teste','Titulo de teste','<?php the_permalink(); ?>'); return false;" type="button" data-toggle="modal" data-target="#myModal"><?php the_post_thumbnail(array(870,420)); ?></a></div>
+			   
+			 <?php endif; ?>
+			
+			<div class="titulo-query-home"><p><a href="<?php the_permalink(); ?>" onclick="history.pushState('teste','Titulo de teste','<?php the_permalink(); ?>'); return false;" type="button" data-toggle="modal" data-target="#myModal"><?php  title_lenght(30) ?></a></p></div>
+
+			  <div class="resumo-query-home"><p><?php wp_limit_post(100,'...',true);?></p></div>
+
+			<?php 
+			endforeach; 
+			else:
+			?>
+			<p></p>
+		    <?php endif; ?>
+
+		</div> <!-- //VideosSidebar -->
+
+</aside>
+
+
+<aside class="sidebar sidebarTags">
+
+	<h3>Tags</h3>
+
+	<div class="tagsContet">
+		<ul>
+			<li><?php wp_tag_cloud('number=30&order=asc'); ?></li>
+		</ul>
+	</div>
+
+
+</aside>
+
+</div> <!-- //SidebarRight -->
 
 
 
