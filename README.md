@@ -10,5 +10,5 @@ Java Script
 Jquery
 PHP
 MySql
-Wordpress
+Wordpress.
 
